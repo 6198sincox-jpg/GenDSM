@@ -1,0 +1,2044 @@
+{
+  "schema": 1,
+  "base_commit": "90ee538b317c4f8b4cdee974257ff1d732cc5542",
+  "skills": [
+    {
+      "source": "Supervisor-Skills",
+      "commit": "4bd3fef393e5ffc891c74309a5ef6c5ad3ad12c8",
+      "license": "CC-BY-NC-SA-4.0",
+      "names": [
+        "idea-evaluator",
+        "deep-research",
+        "tech-paper-template",
+        "pre-submission-reviewer",
+        "benchmark-paper-template",
+        "intro-drafter",
+        "paper-writer",
+        "rebuttal-guidance",
+        "figure-designer",
+        "paper-polish",
+        "vibe-research-workflow",
+        "drawio-reconstruction"
+      ]
+    },
+    {
+      "source": "scientific-agent-skills",
+      "commit": "a25cf9ec00e2745d03f8704acf6f6919694ccd9a",
+      "license": "MIT",
+      "names": [
+        "experimental-design",
+        "scientific-critical-thinking",
+        "peer-review",
+        "hypothesis-generation",
+        "scientific-brainstorming",
+        "scholar-evaluation"
+      ]
+    },
+    {
+      "source": "nature-skills",
+      "commit": "d774add241c65e89ed17a4da573b472b0972fd42",
+      "license": "Apache-2.0",
+      "names": [
+        "nature-reviewer",
+        "nature-paper-xray",
+        "nature-statistics",
+        "nature-ref-verifier"
+      ]
+    },
+    {
+      "source": "AI-Research-SKILLs",
+      "commit": "773a52944ba4747a18bd4ae9ade53fff041adcbc",
+      "license": "MIT",
+      "names": [
+        "brainstorming-research-ideas",
+        "creative-thinking-for-research"
+      ]
+    }
+  ],
+  "files": [
+    {
+      "path": ".agents/skills/idea-evaluator/SKILL.md",
+      "source": "Supervisor-Skills",
+      "commit": "4bd3fef393e5ffc891c74309a5ef6c5ad3ad12c8",
+      "source_path": "skills/idea-evaluator/SKILL.md",
+      "sha256": "630ce9528f472637830b216bf6de231e6dfdcdae4d3b16976324da5ce2d145fb",
+      "bytes": 13597
+    },
+    {
+      "path": ".agents/skills/idea-evaluator/references/domain-evaluation-frameworks.md",
+      "source": "Supervisor-Skills",
+      "commit": "4bd3fef393e5ffc891c74309a5ef6c5ad3ad12c8",
+      "source_path": "skills/idea-evaluator/references/domain-evaluation-frameworks.md",
+      "sha256": "09a9e66316e67870bcf6cc686cd0b6f66995c907a68f95a99d1a2c8aa4d82820",
+      "bytes": 8951
+    },
+    {
+      "path": ".agents/skills/idea-evaluator/references/fatal-flaws.md",
+      "source": "Supervisor-Skills",
+      "commit": "4bd3fef393e5ffc891c74309a5ef6c5ad3ad12c8",
+      "source_path": "skills/idea-evaluator/references/fatal-flaws.md",
+      "sha256": "236dc67ddea96aba2d52b61adb5d0d9f69c05d683d49938914f066d0996e2679",
+      "bytes": 8659
+    },
+    {
+      "path": ".agents/skills/idea-evaluator/references/five-dimensions.md",
+      "source": "Supervisor-Skills",
+      "commit": "4bd3fef393e5ffc891c74309a5ef6c5ad3ad12c8",
+      "source_path": "skills/idea-evaluator/references/five-dimensions.md",
+      "sha256": "d855620c2587fe7b3ddb01cfe837abb594d960e0b31c2e4c22a9ad10fd393798",
+      "bytes": 12621
+    },
+    {
+      "path": ".agents/skills/idea-evaluator/references/lifecycle-capability-matching.md",
+      "source": "Supervisor-Skills",
+      "commit": "4bd3fef393e5ffc891c74309a5ef6c5ad3ad12c8",
+      "source_path": "skills/idea-evaluator/references/lifecycle-capability-matching.md",
+      "sha256": "1467485ac36508286ae9b41cf2b84ef5d13c063ac68daf2bb45bca4137ee01c2",
+      "bytes": 7731
+    },
+    {
+      "path": ".agents/skills/idea-evaluator/references/paradigm-elephant.md",
+      "source": "Supervisor-Skills",
+      "commit": "4bd3fef393e5ffc891c74309a5ef6c5ad3ad12c8",
+      "source_path": "skills/idea-evaluator/references/paradigm-elephant.md",
+      "sha256": "52da00af96b098887b797ec4f20cc5b74f7309a65d02fd7e5f6374fb9dc1057e",
+      "bytes": 4715
+    },
+    {
+      "path": ".agents/skills/idea-evaluator/references/paradigm-examples.md",
+      "source": "Supervisor-Skills",
+      "commit": "4bd3fef393e5ffc891c74309a5ef6c5ad3ad12c8",
+      "source_path": "skills/idea-evaluator/references/paradigm-examples.md",
+      "sha256": "eb755fcda39b399a2d266a282c3b36091ef72d8e9ed49008493be172b62495a4",
+      "bytes": 4976
+    },
+    {
+      "path": ".agents/skills/idea-evaluator/references/paradigm-first-principles.md",
+      "source": "Supervisor-Skills",
+      "commit": "4bd3fef393e5ffc891c74309a5ef6c5ad3ad12c8",
+      "source_path": "skills/idea-evaluator/references/paradigm-first-principles.md",
+      "sha256": "c9c6498d8e6aceeb94631f08306e6a54ba43a721fb8a5357d99091ab8e93eb16",
+      "bytes": 4694
+    },
+    {
+      "path": ".agents/skills/idea-evaluator/references/paradigm-hamming.md",
+      "source": "Supervisor-Skills",
+      "commit": "4bd3fef393e5ffc891c74309a5ef6c5ad3ad12c8",
+      "source_path": "skills/idea-evaluator/references/paradigm-hamming.md",
+      "sha256": "775b93e564cf3529a6725b9bc9db1abf24ba7eca0e7a13e5b6667a2cee59cb77",
+      "bytes": 4834
+    },
+    {
+      "path": ".agents/skills/idea-evaluator/references/paradigm-shift-probe.md",
+      "source": "Supervisor-Skills",
+      "commit": "4bd3fef393e5ffc891c74309a5ef6c5ad3ad12c8",
+      "source_path": "skills/idea-evaluator/references/paradigm-shift-probe.md",
+      "sha256": "ca2523afea8215bba46398a338135aa78e675bfdf9ff6c89da00052934db8e8a",
+      "bytes": 6290
+    },
+    {
+      "path": ".agents/skills/idea-evaluator/references/paradigm-technology-cycle.md",
+      "source": "Supervisor-Skills",
+      "commit": "4bd3fef393e5ffc891c74309a5ef6c5ad3ad12c8",
+      "source_path": "skills/idea-evaluator/references/paradigm-technology-cycle.md",
+      "sha256": "7eb0b9c3d05f821af093ce7d345ee70545b1a59199359aa1c3b4134b8804912a",
+      "bytes": 4820
+    },
+    {
+      "path": ".agents/skills/idea-evaluator/references/worked-examples.md",
+      "source": "Supervisor-Skills",
+      "commit": "4bd3fef393e5ffc891c74309a5ef6c5ad3ad12c8",
+      "source_path": "skills/idea-evaluator/references/worked-examples.md",
+      "sha256": "10fe5cbfdceb753b07881e24d36148dc2158b349f8e8cf6a480d6f203a6a58af",
+      "bytes": 8411
+    },
+    {
+      "path": ".agents/skills/deep-research/SKILL.md",
+      "source": "Supervisor-Skills",
+      "commit": "4bd3fef393e5ffc891c74309a5ef6c5ad3ad12c8",
+      "source_path": "skills/deep-research/SKILL.md",
+      "sha256": "68078fb2307ec659930ad9d9b2e2cb0932a0ff0a4939875ca6f27bec59004c91",
+      "bytes": 9428
+    },
+    {
+      "path": ".agents/skills/deep-research/references/citation-protocol.md",
+      "source": "Supervisor-Skills",
+      "commit": "4bd3fef393e5ffc891c74309a5ef6c5ad3ad12c8",
+      "source_path": "skills/deep-research/references/citation-protocol.md",
+      "sha256": "b892b55431215c45273636adf29dd366b44c133b399f91d0ccec20aa0cc833e1",
+      "bytes": 2107
+    },
+    {
+      "path": ".agents/skills/deep-research/references/hedge-calibration.md",
+      "source": "Supervisor-Skills",
+      "commit": "4bd3fef393e5ffc891c74309a5ef6c5ad3ad12c8",
+      "source_path": "skills/deep-research/references/hedge-calibration.md",
+      "sha256": "2c4532146056a275a72f030352146125884e4ed60001ed3da8195a8e4fa4ea9c",
+      "bytes": 2009
+    },
+    {
+      "path": ".agents/skills/deep-research/references/output-structure.md",
+      "source": "Supervisor-Skills",
+      "commit": "4bd3fef393e5ffc891c74309a5ef6c5ad3ad12c8",
+      "source_path": "skills/deep-research/references/output-structure.md",
+      "sha256": "9a2d0d8ae234f00e60b368606384a6fa40267216356cd82ac89bfbb0edd591f1",
+      "bytes": 5938
+    },
+    {
+      "path": ".agents/skills/deep-research/references/quality-gates.md",
+      "source": "Supervisor-Skills",
+      "commit": "4bd3fef393e5ffc891c74309a5ef6c5ad3ad12c8",
+      "source_path": "skills/deep-research/references/quality-gates.md",
+      "sha256": "ebf05e36a0089c9cc6aa6832696519ec66209300b89b48feac6f93c26f89c568",
+      "bytes": 3563
+    },
+    {
+      "path": ".agents/skills/deep-research/references/search-strategy.md",
+      "source": "Supervisor-Skills",
+      "commit": "4bd3fef393e5ffc891c74309a5ef6c5ad3ad12c8",
+      "source_path": "skills/deep-research/references/search-strategy.md",
+      "sha256": "2ff0d8717db690087aeff273984738b68d6904a81f4296cdd24df62901d55311",
+      "bytes": 2161
+    },
+    {
+      "path": ".agents/skills/deep-research/references/self-adversarial.md",
+      "source": "Supervisor-Skills",
+      "commit": "4bd3fef393e5ffc891c74309a5ef6c5ad3ad12c8",
+      "source_path": "skills/deep-research/references/self-adversarial.md",
+      "sha256": "a690d9db5860957c228e985338c511ac1a2b7748c0bf00e351f77df8ef06d3d3",
+      "bytes": 2417
+    },
+    {
+      "path": ".agents/skills/deep-research/references/synthesis-framework.md",
+      "source": "Supervisor-Skills",
+      "commit": "4bd3fef393e5ffc891c74309a5ef6c5ad3ad12c8",
+      "source_path": "skills/deep-research/references/synthesis-framework.md",
+      "sha256": "dfc8e43c8e6700a6baeb4aa5b5313e2e655c1a905ce39d8715784d0ca0170256",
+      "bytes": 4709
+    },
+    {
+      "path": ".agents/skills/tech-paper-template/SKILL.md",
+      "source": "Supervisor-Skills",
+      "commit": "4bd3fef393e5ffc891c74309a5ef6c5ad3ad12c8",
+      "source_path": "skills/tech-paper-template/SKILL.md",
+      "sha256": "93625f319514cba10cb989cd670af6ee623b079f063ace8d1451af56c7c0c879",
+      "bytes": 6975
+    },
+    {
+      "path": ".agents/skills/tech-paper-template/references/consistency-checks.md",
+      "source": "Supervisor-Skills",
+      "commit": "4bd3fef393e5ffc891c74309a5ef6c5ad3ad12c8",
+      "source_path": "skills/tech-paper-template/references/consistency-checks.md",
+      "sha256": "887dc40aaee06f64c347794633135a3f99b3b7f68f47917bc4061134c7ff1bc3",
+      "bytes": 5632
+    },
+    {
+      "path": ".agents/skills/tech-paper-template/references/paper-types.md",
+      "source": "Supervisor-Skills",
+      "commit": "4bd3fef393e5ffc891c74309a5ef6c5ad3ad12c8",
+      "source_path": "skills/tech-paper-template/references/paper-types.md",
+      "sha256": "879c44111cb4c5724ba0bbaec0d691ac142f41244731e1f1c779a14bd4360ff4",
+      "bytes": 4853
+    },
+    {
+      "path": ".agents/skills/tech-paper-template/references/thinking-template.md",
+      "source": "Supervisor-Skills",
+      "commit": "4bd3fef393e5ffc891c74309a5ef6c5ad3ad12c8",
+      "source_path": "skills/tech-paper-template/references/thinking-template.md",
+      "sha256": "2954ed9e9fa82136707d85348ccd0a232a55a236edb25811b23ae1ab75d6e86b",
+      "bytes": 5487
+    },
+    {
+      "path": ".agents/skills/tech-paper-template/references/worked-examples.md",
+      "source": "Supervisor-Skills",
+      "commit": "4bd3fef393e5ffc891c74309a5ef6c5ad3ad12c8",
+      "source_path": "skills/tech-paper-template/references/worked-examples.md",
+      "sha256": "16be6315756c6a599f1d82711b5a1dd8701759913f6be9a3ebcf5ec786b00768",
+      "bytes": 5972
+    },
+    {
+      "path": ".agents/skills/pre-submission-reviewer/SKILL.md",
+      "source": "Supervisor-Skills",
+      "commit": "4bd3fef393e5ffc891c74309a5ef6c5ad3ad12c8",
+      "source_path": "skills/pre-submission-reviewer/SKILL.md",
+      "sha256": "639a96684ad6ca50fb1141287c4d3f2af76653b95cb2dae3dd7897d212bd8c35",
+      "bytes": 12686
+    },
+    {
+      "path": ".agents/skills/pre-submission-reviewer/references/forbidden-patterns.md",
+      "source": "Supervisor-Skills",
+      "commit": "4bd3fef393e5ffc891c74309a5ef6c5ad3ad12c8",
+      "source_path": "skills/pre-submission-reviewer/references/forbidden-patterns.md",
+      "sha256": "bfbe4161e42f39478d8477535c3a94d8cd1bb96f7e02c712fe3e7b8b88a2246c",
+      "bytes": 4801
+    },
+    {
+      "path": ".agents/skills/pre-submission-reviewer/references/grammar-rules.md",
+      "source": "Supervisor-Skills",
+      "commit": "4bd3fef393e5ffc891c74309a5ef6c5ad3ad12c8",
+      "source_path": "skills/pre-submission-reviewer/references/grammar-rules.md",
+      "sha256": "dc18174e6d2237f2c0b298b43d5a86f16481c36144f4785b44042ef864ecfdf9",
+      "bytes": 4767
+    },
+    {
+      "path": ".agents/skills/pre-submission-reviewer/references/latex-rules.md",
+      "source": "Supervisor-Skills",
+      "commit": "4bd3fef393e5ffc891c74309a5ef6c5ad3ad12c8",
+      "source_path": "skills/pre-submission-reviewer/references/latex-rules.md",
+      "sha256": "c231ec38506e7156d5106ac40f62c22b9ae15a34b1cc1e6a02b70666f7254dbf",
+      "bytes": 4439
+    },
+    {
+      "path": ".agents/skills/pre-submission-reviewer/references/logic-and-structure.md",
+      "source": "Supervisor-Skills",
+      "commit": "4bd3fef393e5ffc891c74309a5ef6c5ad3ad12c8",
+      "source_path": "skills/pre-submission-reviewer/references/logic-and-structure.md",
+      "sha256": "9442f79abc4088bab06da13c362d0bffc760d1fd22379ae5cb3f144d3358abec",
+      "bytes": 4663
+    },
+    {
+      "path": ".agents/skills/pre-submission-reviewer/references/section-guides.md",
+      "source": "Supervisor-Skills",
+      "commit": "4bd3fef393e5ffc891c74309a5ef6c5ad3ad12c8",
+      "source_path": "skills/pre-submission-reviewer/references/section-guides.md",
+      "sha256": "16201aaa845ed7fafcc676ec9d36c084d31f0494bba7a53ff649912ba5fc71f6",
+      "bytes": 5334
+    },
+    {
+      "path": ".agents/skills/benchmark-paper-template/SKILL.md",
+      "source": "Supervisor-Skills",
+      "commit": "4bd3fef393e5ffc891c74309a5ef6c5ad3ad12c8",
+      "source_path": "skills/benchmark-paper-template/SKILL.md",
+      "sha256": "daa63e695d0dccd317517b90b92d0f7e3f1f67f104ee5971ad6e9b5c120d3095",
+      "bytes": 11184
+    },
+    {
+      "path": ".agents/skills/benchmark-paper-template/references/benchmark-design.md",
+      "source": "Supervisor-Skills",
+      "commit": "4bd3fef393e5ffc891c74309a5ef6c5ad3ad12c8",
+      "source_path": "skills/benchmark-paper-template/references/benchmark-design.md",
+      "sha256": "07ca889ca80de03ea7fc6f586e4efb3460a93f89542d07c689ce45283a1bfbb5",
+      "bytes": 7558
+    },
+    {
+      "path": ".agents/skills/benchmark-paper-template/references/checklist.md",
+      "source": "Supervisor-Skills",
+      "commit": "4bd3fef393e5ffc891c74309a5ef6c5ad3ad12c8",
+      "source_path": "skills/benchmark-paper-template/references/checklist.md",
+      "sha256": "2bcd4df5198891689f3817973638418c7dc8f547ef515e9fde365d1193af5b12",
+      "bytes": 6934
+    },
+    {
+      "path": ".agents/skills/benchmark-paper-template/references/construction-pipeline.md",
+      "source": "Supervisor-Skills",
+      "commit": "4bd3fef393e5ffc891c74309a5ef6c5ad3ad12c8",
+      "source_path": "skills/benchmark-paper-template/references/construction-pipeline.md",
+      "sha256": "714c23cecfd952368911ba71c0c65f713d2954641090a8d942d0dde3fdc61e6a",
+      "bytes": 6357
+    },
+    {
+      "path": ".agents/skills/benchmark-paper-template/references/experiments.md",
+      "source": "Supervisor-Skills",
+      "commit": "4bd3fef393e5ffc891c74309a5ef6c5ad3ad12c8",
+      "source_path": "skills/benchmark-paper-template/references/experiments.md",
+      "sha256": "0feab24e92c96e716f4c0ae60dcf385a63d9d58a58bebf09729f067db336db6e",
+      "bytes": 8218
+    },
+    {
+      "path": ".agents/skills/benchmark-paper-template/references/gap-analysis.md",
+      "source": "Supervisor-Skills",
+      "commit": "4bd3fef393e5ffc891c74309a5ef6c5ad3ad12c8",
+      "source_path": "skills/benchmark-paper-template/references/gap-analysis.md",
+      "sha256": "676b1349ddbee6463047c879d1ac44ada2f6b07a313ae6b1045d4384287189d4",
+      "bytes": 5467
+    },
+    {
+      "path": ".agents/skills/benchmark-paper-template/references/instantiation-template.md",
+      "source": "Supervisor-Skills",
+      "commit": "4bd3fef393e5ffc891c74309a5ef6c5ad3ad12c8",
+      "source_path": "skills/benchmark-paper-template/references/instantiation-template.md",
+      "sha256": "d329085c363eff5192bdff4d9c156e6de310d332e3ccdc56a1f74cee4691c975",
+      "bytes": 5327
+    },
+    {
+      "path": ".agents/skills/benchmark-paper-template/references/orchestrator-notes.md",
+      "source": "Supervisor-Skills",
+      "commit": "4bd3fef393e5ffc891c74309a5ef6c5ad3ad12c8",
+      "source_path": "skills/benchmark-paper-template/references/orchestrator-notes.md",
+      "sha256": "9c2a2b3ea062323b3031bfbf86e0970b3a3571949bc1363ddf472d68f3243bb5",
+      "bytes": 5263
+    },
+    {
+      "path": ".agents/skills/benchmark-paper-template/references/paper-structure.md",
+      "source": "Supervisor-Skills",
+      "commit": "4bd3fef393e5ffc891c74309a5ef6c5ad3ad12c8",
+      "source_path": "skills/benchmark-paper-template/references/paper-structure.md",
+      "sha256": "28a5ef1ff1124aca5b0e31c3827bcd2485b9ca090f51763153d39caac00e7370",
+      "bytes": 9906
+    },
+    {
+      "path": ".agents/skills/intro-drafter/SKILL.md",
+      "source": "Supervisor-Skills",
+      "commit": "4bd3fef393e5ffc891c74309a5ef6c5ad3ad12c8",
+      "source_path": "skills/intro-drafter/SKILL.md",
+      "sha256": "675e8a97a58a841b04dd9fa061fcc03075e75695aada5c7b23d1c1498435d5a7",
+      "bytes": 9699
+    },
+    {
+      "path": ".agents/skills/intro-drafter/references/contribution-patterns.md",
+      "source": "Supervisor-Skills",
+      "commit": "4bd3fef393e5ffc891c74309a5ef6c5ad3ad12c8",
+      "source_path": "skills/intro-drafter/references/contribution-patterns.md",
+      "sha256": "6ba9363a364fca4634bb47e9bfffa88f393698afc587bb84c1444d4f84afb6e8",
+      "bytes": 4352
+    },
+    {
+      "path": ".agents/skills/intro-drafter/references/evidence-discipline.md",
+      "source": "Supervisor-Skills",
+      "commit": "4bd3fef393e5ffc891c74309a5ef6c5ad3ad12c8",
+      "source_path": "skills/intro-drafter/references/evidence-discipline.md",
+      "sha256": "63c20c6b783b12b34753a2119bde8812168012e69cda4552988e56fea42fb5ac",
+      "bytes": 7858
+    },
+    {
+      "path": ".agents/skills/intro-drafter/references/flowchart.md",
+      "source": "Supervisor-Skills",
+      "commit": "4bd3fef393e5ffc891c74309a5ef6c5ad3ad12c8",
+      "source_path": "skills/intro-drafter/references/flowchart.md",
+      "sha256": "46aebd7605bcea34559644b05e9e1d6e804a87b1ddd9c568541e14ffc5778761",
+      "bytes": 6914
+    },
+    {
+      "path": ".agents/skills/intro-drafter/references/paper-types.md",
+      "source": "Supervisor-Skills",
+      "commit": "4bd3fef393e5ffc891c74309a5ef6c5ad3ad12c8",
+      "source_path": "skills/intro-drafter/references/paper-types.md",
+      "sha256": "21f1267c85df2b2f3c58572d3794e4edef567ad28f58352350879c16d69c10b2",
+      "bytes": 5769
+    },
+    {
+      "path": ".agents/skills/intro-drafter/references/prose-delivery.md",
+      "source": "Supervisor-Skills",
+      "commit": "4bd3fef393e5ffc891c74309a5ef6c5ad3ad12c8",
+      "source_path": "skills/intro-drafter/references/prose-delivery.md",
+      "sha256": "1a7e60145d6b55e0d42c6e12c02c86b77662fda75f89585ec0449318634c05ee",
+      "bytes": 3011
+    },
+    {
+      "path": ".agents/skills/intro-drafter/references/running-example.md",
+      "source": "Supervisor-Skills",
+      "commit": "4bd3fef393e5ffc891c74309a5ef6c5ad3ad12c8",
+      "source_path": "skills/intro-drafter/references/running-example.md",
+      "sha256": "14f08a1da8f3e70ee6f59a36b2c9649b444ad6620d296b9b91e052bf24152655",
+      "bytes": 5091
+    },
+    {
+      "path": ".agents/skills/intro-drafter/references/worked-examples.md",
+      "source": "Supervisor-Skills",
+      "commit": "4bd3fef393e5ffc891c74309a5ef6c5ad3ad12c8",
+      "source_path": "skills/intro-drafter/references/worked-examples.md",
+      "sha256": "ddc22cddd503395f573bbb72aa32696c3c0cbeb939852e326de5a30bf591707b",
+      "bytes": 7365
+    },
+    {
+      "path": ".agents/skills/paper-writer/SKILL.md",
+      "source": "Supervisor-Skills",
+      "commit": "4bd3fef393e5ffc891c74309a5ef6c5ad3ad12c8",
+      "source_path": "skills/paper-writer/SKILL.md",
+      "sha256": "5ac3df38ca0f6a4a2b7600be100a8b1eb65bec7ce96e492682b765c10e158630",
+      "bytes": 14013
+    },
+    {
+      "path": ".agents/skills/paper-writer/references/academic-phrasebank.md",
+      "source": "Supervisor-Skills",
+      "commit": "4bd3fef393e5ffc891c74309a5ef6c5ad3ad12c8",
+      "source_path": "skills/paper-writer/references/academic-phrasebank.md",
+      "sha256": "56091882b95163fe63a79da0eed1b6382affdac279f9fd988f69527ee30dfb68",
+      "bytes": 4548
+    },
+    {
+      "path": ".agents/skills/paper-writer/references/ai-tone-guardrails.md",
+      "source": "Supervisor-Skills",
+      "commit": "4bd3fef393e5ffc891c74309a5ef6c5ad3ad12c8",
+      "source_path": "skills/paper-writer/references/ai-tone-guardrails.md",
+      "sha256": "2fd3f8960f0ffe34469145e42162f866f37da2980a1d6636be6cb6357da00023",
+      "bytes": 4500
+    },
+    {
+      "path": ".agents/skills/paper-writer/references/citation-style.md",
+      "source": "Supervisor-Skills",
+      "commit": "4bd3fef393e5ffc891c74309a5ef6c5ad3ad12c8",
+      "source_path": "skills/paper-writer/references/citation-style.md",
+      "sha256": "17a69ba23fbd7e937f7404d711d26e41f5b18d7fc4aa860a6b575d367927cfce",
+      "bytes": 4804
+    },
+    {
+      "path": ".agents/skills/paper-writer/references/evidence-discipline.md",
+      "source": "Supervisor-Skills",
+      "commit": "4bd3fef393e5ffc891c74309a5ef6c5ad3ad12c8",
+      "source_path": "skills/paper-writer/references/evidence-discipline.md",
+      "sha256": "37dfcc3452f1d768d3d41329bfb103292b0015ccab146d41672176ca69df3edc",
+      "bytes": 7869
+    },
+    {
+      "path": ".agents/skills/paper-writer/references/prose-delivery.md",
+      "source": "Supervisor-Skills",
+      "commit": "4bd3fef393e5ffc891c74309a5ef6c5ad3ad12c8",
+      "source_path": "skills/paper-writer/references/prose-delivery.md",
+      "sha256": "26ae7bbedea943d7b1d72b5af742ba0a039f120860e073c5abcb333466bec4b5",
+      "bytes": 3027
+    },
+    {
+      "path": ".agents/skills/paper-writer/references/section-conventions.md",
+      "source": "Supervisor-Skills",
+      "commit": "4bd3fef393e5ffc891c74309a5ef6c5ad3ad12c8",
+      "source_path": "skills/paper-writer/references/section-conventions.md",
+      "sha256": "810700351410427dddd924e9bf7fcc462027a447ebe81f843df96c39057a7a96",
+      "bytes": 4384
+    },
+    {
+      "path": ".agents/skills/paper-writer/references/section-guidance.md",
+      "source": "Supervisor-Skills",
+      "commit": "4bd3fef393e5ffc891c74309a5ef6c5ad3ad12c8",
+      "source_path": "skills/paper-writer/references/section-guidance.md",
+      "sha256": "0a81a147c167a7a5adf4a2ea526807f561895eb55507f4489aa1d4385908beda",
+      "bytes": 4912
+    },
+    {
+      "path": ".agents/skills/paper-writer/references/verification-checklist.md",
+      "source": "Supervisor-Skills",
+      "commit": "4bd3fef393e5ffc891c74309a5ef6c5ad3ad12c8",
+      "source_path": "skills/paper-writer/references/verification-checklist.md",
+      "sha256": "474d8772cadd92994f6d7591cd0cb54baec59a6f7257557379f7830b24d73fdb",
+      "bytes": 5166
+    },
+    {
+      "path": ".agents/skills/paper-writer/references/verification-ladder.md",
+      "source": "Supervisor-Skills",
+      "commit": "4bd3fef393e5ffc891c74309a5ef6c5ad3ad12c8",
+      "source_path": "skills/paper-writer/references/verification-ladder.md",
+      "sha256": "3702c85b12da5db87c2b49359ad2f632e08fab7880a498e4e4e1b5af581f3aff",
+      "bytes": 6893
+    },
+    {
+      "path": ".agents/skills/rebuttal-guidance/SKILL.md",
+      "source": "Supervisor-Skills",
+      "commit": "4bd3fef393e5ffc891c74309a5ef6c5ad3ad12c8",
+      "source_path": "skills/rebuttal-guidance/SKILL.md",
+      "sha256": "cdccf6a9f0de1a459cfbc22943dcd351a913140ce459b2477ea0e7c567070a2a",
+      "bytes": 5307
+    },
+    {
+      "path": ".agents/skills/rebuttal-guidance/references/checklist.md",
+      "source": "Supervisor-Skills",
+      "commit": "4bd3fef393e5ffc891c74309a5ef6c5ad3ad12c8",
+      "source_path": "skills/rebuttal-guidance/references/checklist.md",
+      "sha256": "f75a0068584492f3d2285eef0f106c6550f8ba7ae2ffdb9c9b7c5fcd4dd4b058",
+      "bytes": 1944
+    },
+    {
+      "path": ".agents/skills/rebuttal-guidance/references/concern-classification.md",
+      "source": "Supervisor-Skills",
+      "commit": "4bd3fef393e5ffc891c74309a5ef6c5ad3ad12c8",
+      "source_path": "skills/rebuttal-guidance/references/concern-classification.md",
+      "sha256": "e8f89c71589e601471f1d15428c671c19bbbc2f5021401da3c0a7247948b537e",
+      "bytes": 2260
+    },
+    {
+      "path": ".agents/skills/rebuttal-guidance/references/mindset-library.md",
+      "source": "Supervisor-Skills",
+      "commit": "4bd3fef393e5ffc891c74309a5ef6c5ad3ad12c8",
+      "source_path": "skills/rebuttal-guidance/references/mindset-library.md",
+      "sha256": "00ccdabac80da979db5b4b177548befff1bf0f985dac51321b4d14a8564da90b",
+      "bytes": 17314
+    },
+    {
+      "path": ".agents/skills/rebuttal-guidance/references/mindset-matching-heuristics.md",
+      "source": "Supervisor-Skills",
+      "commit": "4bd3fef393e5ffc891c74309a5ef6c5ad3ad12c8",
+      "source_path": "skills/rebuttal-guidance/references/mindset-matching-heuristics.md",
+      "sha256": "9872ee5f0606239c7769cc719d31fce19035c5e4bcd607662ad1a4b91bb6da38",
+      "bytes": 2571
+    },
+    {
+      "path": ".agents/skills/rebuttal-guidance/references/response-templates.md",
+      "source": "Supervisor-Skills",
+      "commit": "4bd3fef393e5ffc891c74309a5ef6c5ad3ad12c8",
+      "source_path": "skills/rebuttal-guidance/references/response-templates.md",
+      "sha256": "2fd6637e6e2b1458453ef6b644c086952e6c8b9965a439ded258add7efcba3bf",
+      "bytes": 2528
+    },
+    {
+      "path": ".agents/skills/rebuttal-guidance/references/strategy-dimensions.md",
+      "source": "Supervisor-Skills",
+      "commit": "4bd3fef393e5ffc891c74309a5ef6c5ad3ad12c8",
+      "source_path": "skills/rebuttal-guidance/references/strategy-dimensions.md",
+      "sha256": "c7e268146540a07976cfaa5461591aa87071690a88afa6e94c12e1c9e895461b",
+      "bytes": 2491
+    },
+    {
+      "path": ".agents/skills/figure-designer/SKILL.md",
+      "source": "Supervisor-Skills",
+      "commit": "4bd3fef393e5ffc891c74309a5ef6c5ad3ad12c8",
+      "source_path": "skills/figure-designer/SKILL.md",
+      "sha256": "c9ba67c1c21972ac6e48f22397e45b9e0855f0feb407c3599308de2902880b57",
+      "bytes": 7454
+    },
+    {
+      "path": ".agents/skills/figure-designer/references/design-rules.md",
+      "source": "Supervisor-Skills",
+      "commit": "4bd3fef393e5ffc891c74309a5ef6c5ad3ad12c8",
+      "source_path": "skills/figure-designer/references/design-rules.md",
+      "sha256": "088949487c3582e8e70fcfbc016ab393242289f879777fccdd1f845088591f4b",
+      "bytes": 3979
+    },
+    {
+      "path": ".agents/skills/figure-designer/references/experimental-results.md",
+      "source": "Supervisor-Skills",
+      "commit": "4bd3fef393e5ffc891c74309a5ef6c5ad3ad12c8",
+      "source_path": "skills/figure-designer/references/experimental-results.md",
+      "sha256": "537445abb435703baca9c2f0107568923f689bbfc3b8feb5ada2ba88f0777965",
+      "bytes": 5117
+    },
+    {
+      "path": ".agents/skills/figure-designer/references/motivated-example.md",
+      "source": "Supervisor-Skills",
+      "commit": "4bd3fef393e5ffc891c74309a5ef6c5ad3ad12c8",
+      "source_path": "skills/figure-designer/references/motivated-example.md",
+      "sha256": "b05a774d84604db502506bbe2a7d621d51257f5cbd9d16a85fc463471a5cea85",
+      "bytes": 4618
+    },
+    {
+      "path": ".agents/skills/figure-designer/references/solution-overview.md",
+      "source": "Supervisor-Skills",
+      "commit": "4bd3fef393e5ffc891c74309a5ef6c5ad3ad12c8",
+      "source_path": "skills/figure-designer/references/solution-overview.md",
+      "sha256": "1770b0919bb7622fa6b510fb27279a2989fadfd00bb55f1653c36a84aff467d3",
+      "bytes": 4893
+    },
+    {
+      "path": ".agents/skills/figure-designer/references/tools.md",
+      "source": "Supervisor-Skills",
+      "commit": "4bd3fef393e5ffc891c74309a5ef6c5ad3ad12c8",
+      "source_path": "skills/figure-designer/references/tools.md",
+      "sha256": "96a96208550c033c632b8f625f99f9d014a5d2f6000570bc5f75e53216e9b30f",
+      "bytes": 3957
+    },
+    {
+      "path": ".agents/skills/paper-polish/SKILL.md",
+      "source": "Supervisor-Skills",
+      "commit": "4bd3fef393e5ffc891c74309a5ef6c5ad3ad12c8",
+      "source_path": "skills/paper-polish/SKILL.md",
+      "sha256": "fde7964acfea805a399d52da0355dac3139b51be9b2aa456348538c4713f75ce",
+      "bytes": 12311
+    },
+    {
+      "path": ".agents/skills/paper-polish/references/academic-phrasebank.md",
+      "source": "Supervisor-Skills",
+      "commit": "4bd3fef393e5ffc891c74309a5ef6c5ad3ad12c8",
+      "source_path": "skills/paper-polish/references/academic-phrasebank.md",
+      "sha256": "4f199bd39c1810453b41388dd9839b570522512c319922f1a11d7a5029706e57",
+      "bytes": 4559
+    },
+    {
+      "path": ".agents/skills/paper-polish/references/ai-tone-guardrails.md",
+      "source": "Supervisor-Skills",
+      "commit": "4bd3fef393e5ffc891c74309a5ef6c5ad3ad12c8",
+      "source_path": "skills/paper-polish/references/ai-tone-guardrails.md",
+      "sha256": "11f8570c540c7502aa95ce799c97be3c6e12dd744ccc2ece774126509e015024",
+      "bytes": 4512
+    },
+    {
+      "path": ".agents/skills/paper-polish/references/section-conventions.md",
+      "source": "Supervisor-Skills",
+      "commit": "4bd3fef393e5ffc891c74309a5ef6c5ad3ad12c8",
+      "source_path": "skills/paper-polish/references/section-conventions.md",
+      "sha256": "83348fb3658aee2a09a9ad35e5b0265240371122442431df5a1efdd86d5d58cb",
+      "bytes": 4395
+    },
+    {
+      "path": ".agents/skills/vibe-research-workflow/SKILL.md",
+      "source": "Supervisor-Skills",
+      "commit": "4bd3fef393e5ffc891c74309a5ef6c5ad3ad12c8",
+      "source_path": "skills/vibe-research-workflow/SKILL.md",
+      "sha256": "c26a9f011cb8e88d6d5000c1b1844db7278334c07e84be4bae7ea8d08084a333",
+      "bytes": 7449
+    },
+    {
+      "path": ".agents/skills/vibe-research-workflow/references/behavior-guidelines.md",
+      "source": "Supervisor-Skills",
+      "commit": "4bd3fef393e5ffc891c74309a5ef6c5ad3ad12c8",
+      "source_path": "skills/vibe-research-workflow/references/behavior-guidelines.md",
+      "sha256": "889c169fd7ee9dbcf8a4f93ffa29b73dacb36563ea862d9ab360b3c49b2f5d16",
+      "bytes": 5185
+    },
+    {
+      "path": ".agents/skills/vibe-research-workflow/references/tool-selection.md",
+      "source": "Supervisor-Skills",
+      "commit": "4bd3fef393e5ffc891c74309a5ef6c5ad3ad12c8",
+      "source_path": "skills/vibe-research-workflow/references/tool-selection.md",
+      "sha256": "a78d761f540815dff6c4941ba20a3e70e89471b2a76cd2573a0f8167d3f75227",
+      "bytes": 4694
+    },
+    {
+      "path": ".agents/skills/vibe-research-workflow/references/vibe-coding.md",
+      "source": "Supervisor-Skills",
+      "commit": "4bd3fef393e5ffc891c74309a5ef6c5ad3ad12c8",
+      "source_path": "skills/vibe-research-workflow/references/vibe-coding.md",
+      "sha256": "0e09e54c3a129f47f93898a40e63174e1953d6d877dc1cf7e8ae2e86a6300f57",
+      "bytes": 4586
+    },
+    {
+      "path": ".agents/skills/vibe-research-workflow/references/vibe-figure.md",
+      "source": "Supervisor-Skills",
+      "commit": "4bd3fef393e5ffc891c74309a5ef6c5ad3ad12c8",
+      "source_path": "skills/vibe-research-workflow/references/vibe-figure.md",
+      "sha256": "3fd732937d88e1755b71949bfdfe75d433ec328af10ef848de2e217e7f9be14a",
+      "bytes": 4159
+    },
+    {
+      "path": ".agents/skills/vibe-research-workflow/references/vibe-writing.md",
+      "source": "Supervisor-Skills",
+      "commit": "4bd3fef393e5ffc891c74309a5ef6c5ad3ad12c8",
+      "source_path": "skills/vibe-research-workflow/references/vibe-writing.md",
+      "sha256": "cfab973c626fc33e53b30485e539ba081559ce38029247f27b57872131a761c7",
+      "bytes": 6762
+    },
+    {
+      "path": ".agents/skills/drawio-reconstruction/.gitignore",
+      "source": "Supervisor-Skills",
+      "commit": "4bd3fef393e5ffc891c74309a5ef6c5ad3ad12c8",
+      "source_path": "skills/drawio-reconstruction/.gitignore",
+      "sha256": "73b943349cdedc959577ff6ac1089c54a6f69e7a246686967af8d195fe9142e2",
+      "bytes": 262
+    },
+    {
+      "path": ".agents/skills/drawio-reconstruction/LICENSE",
+      "source": "Supervisor-Skills",
+      "commit": "4bd3fef393e5ffc891c74309a5ef6c5ad3ad12c8",
+      "source_path": "skills/drawio-reconstruction/LICENSE",
+      "sha256": "bfbb06eedaf5ab909b115b901bdc15942969f2bd51c71aee6ab9b6b84f22f0b8",
+      "bytes": 1074
+    },
+    {
+      "path": ".agents/skills/drawio-reconstruction/README.md",
+      "source": "Supervisor-Skills",
+      "commit": "4bd3fef393e5ffc891c74309a5ef6c5ad3ad12c8",
+      "source_path": "skills/drawio-reconstruction/README.md",
+      "sha256": "370f90a35b2f973e5636d933c159b86c034652063818ef739e893693eb2cd86f",
+      "bytes": 8964
+    },
+    {
+      "path": ".agents/skills/drawio-reconstruction/README.zh-CN.md",
+      "source": "Supervisor-Skills",
+      "commit": "4bd3fef393e5ffc891c74309a5ef6c5ad3ad12c8",
+      "source_path": "skills/drawio-reconstruction/README.zh-CN.md",
+      "sha256": "25b1999581518292cb1c99906c128918ef2ff37fdf188194511b1c81dcb5a525",
+      "bytes": 8623
+    },
+    {
+      "path": ".agents/skills/drawio-reconstruction/SKILL.md",
+      "source": "Supervisor-Skills",
+      "commit": "4bd3fef393e5ffc891c74309a5ef6c5ad3ad12c8",
+      "source_path": "skills/drawio-reconstruction/SKILL.md",
+      "sha256": "ccc4e5fa5ccd4d7f8a33f88c241d8df2e951f015d2dadfbaa5506d323ea38441",
+      "bytes": 21671
+    },
+    {
+      "path": ".agents/skills/drawio-reconstruction/agents/openai.yaml",
+      "source": "Supervisor-Skills",
+      "commit": "4bd3fef393e5ffc891c74309a5ef6c5ad3ad12c8",
+      "source_path": "skills/drawio-reconstruction/agents/openai.yaml",
+      "sha256": "c6d8775d6a5e744179378ef50de84727275624e5c6574b97731288c50adda206",
+      "bytes": 302
+    },
+    {
+      "path": ".agents/skills/drawio-reconstruction/assets/cases/data_lake_drawio.png",
+      "source": "Supervisor-Skills",
+      "commit": "4bd3fef393e5ffc891c74309a5ef6c5ad3ad12c8",
+      "source_path": "skills/drawio-reconstruction/assets/cases/data_lake_drawio.png",
+      "sha256": "a58af6e03d40bb5f61920f48369506684e8d889ab27f34b93278ef47e5fb0dfc",
+      "bytes": 492829
+    },
+    {
+      "path": ".agents/skills/drawio-reconstruction/assets/cases/data_lake_original.png",
+      "source": "Supervisor-Skills",
+      "commit": "4bd3fef393e5ffc891c74309a5ef6c5ad3ad12c8",
+      "source_path": "skills/drawio-reconstruction/assets/cases/data_lake_original.png",
+      "sha256": "b51a8071730abd81ba2a977f882ee9678c3b981ba52261e56caf045e5713c629",
+      "bytes": 1289583
+    },
+    {
+      "path": ".agents/skills/drawio-reconstruction/assets/cases/data_man_drawio.png",
+      "source": "Supervisor-Skills",
+      "commit": "4bd3fef393e5ffc891c74309a5ef6c5ad3ad12c8",
+      "source_path": "skills/drawio-reconstruction/assets/cases/data_man_drawio.png",
+      "sha256": "92a73390088852977d4d606770d451fd34073e1d0cec6a26bba591b124ebd636",
+      "bytes": 651847
+    },
+    {
+      "path": ".agents/skills/drawio-reconstruction/assets/cases/data_man_original.png",
+      "source": "Supervisor-Skills",
+      "commit": "4bd3fef393e5ffc891c74309a5ef6c5ad3ad12c8",
+      "source_path": "skills/drawio-reconstruction/assets/cases/data_man_original.png",
+      "sha256": "2a8a1d41a5fba35be07f8968916cf44d607a886fd1f1ac6fcdf6d4e0ece872ed",
+      "bytes": 1875717
+    },
+    {
+      "path": ".agents/skills/drawio-reconstruction/assets/cases/data_sci2_drawio.png",
+      "source": "Supervisor-Skills",
+      "commit": "4bd3fef393e5ffc891c74309a5ef6c5ad3ad12c8",
+      "source_path": "skills/drawio-reconstruction/assets/cases/data_sci2_drawio.png",
+      "sha256": "d0390e3a8b5007b628f7137dee30cd38d0a970e9a69823b7e0c0e76ff0e8bbc7",
+      "bytes": 778923
+    },
+    {
+      "path": ".agents/skills/drawio-reconstruction/assets/cases/data_sci2_original.png",
+      "source": "Supervisor-Skills",
+      "commit": "4bd3fef393e5ffc891c74309a5ef6c5ad3ad12c8",
+      "source_path": "skills/drawio-reconstruction/assets/cases/data_sci2_original.png",
+      "sha256": "31e76e8db719ed22fec208746f00c24905d9dccc2b92cad8d65d6bba1e6ab77e",
+      "bytes": 1799262
+    },
+    {
+      "path": ".agents/skills/drawio-reconstruction/examples/data_lake.drawio",
+      "source": "Supervisor-Skills",
+      "commit": "4bd3fef393e5ffc891c74309a5ef6c5ad3ad12c8",
+      "source_path": "skills/drawio-reconstruction/examples/data_lake.drawio",
+      "sha256": "52ca629c2ea9f31a623b61f567fc5acfe318e858b84a4ebee824cf7c24f70218",
+      "bytes": 380343
+    },
+    {
+      "path": ".agents/skills/drawio-reconstruction/examples/data_lake.png",
+      "source": "Supervisor-Skills",
+      "commit": "4bd3fef393e5ffc891c74309a5ef6c5ad3ad12c8",
+      "source_path": "skills/drawio-reconstruction/examples/data_lake.png",
+      "sha256": "b51a8071730abd81ba2a977f882ee9678c3b981ba52261e56caf045e5713c629",
+      "bytes": 1289583
+    },
+    {
+      "path": ".agents/skills/drawio-reconstruction/examples/data_man.drawio",
+      "source": "Supervisor-Skills",
+      "commit": "4bd3fef393e5ffc891c74309a5ef6c5ad3ad12c8",
+      "source_path": "skills/drawio-reconstruction/examples/data_man.drawio",
+      "sha256": "7b0bff7f8e573474cd79ada21ad692d3982270b984397e46d451f6c79c235289",
+      "bytes": 490095
+    },
+    {
+      "path": ".agents/skills/drawio-reconstruction/examples/data_man.png",
+      "source": "Supervisor-Skills",
+      "commit": "4bd3fef393e5ffc891c74309a5ef6c5ad3ad12c8",
+      "source_path": "skills/drawio-reconstruction/examples/data_man.png",
+      "sha256": "2a8a1d41a5fba35be07f8968916cf44d607a886fd1f1ac6fcdf6d4e0ece872ed",
+      "bytes": 1875717
+    },
+    {
+      "path": ".agents/skills/drawio-reconstruction/examples/data_sci2.drawio",
+      "source": "Supervisor-Skills",
+      "commit": "4bd3fef393e5ffc891c74309a5ef6c5ad3ad12c8",
+      "source_path": "skills/drawio-reconstruction/examples/data_sci2.drawio",
+      "sha256": "fe00c2b1b0df5f8541a084bea99c6a4855c1bd7c87ac36b16999ed74cf30a895",
+      "bytes": 416876
+    },
+    {
+      "path": ".agents/skills/drawio-reconstruction/examples/data_sci2.png",
+      "source": "Supervisor-Skills",
+      "commit": "4bd3fef393e5ffc891c74309a5ef6c5ad3ad12c8",
+      "source_path": "skills/drawio-reconstruction/examples/data_sci2.png",
+      "sha256": "31e76e8db719ed22fec208746f00c24905d9dccc2b92cad8d65d6bba1e6ab77e",
+      "bytes": 1799262
+    },
+    {
+      "path": ".agents/skills/drawio-reconstruction/requirements.txt",
+      "source": "Supervisor-Skills",
+      "commit": "4bd3fef393e5ffc891c74309a5ef6c5ad3ad12c8",
+      "source_path": "skills/drawio-reconstruction/requirements.txt",
+      "sha256": "dce978a554b00caca70d59f539d25c61fcc89681e02d7fec42948cd5c3c0a127",
+      "bytes": 13
+    },
+    {
+      "path": ".agents/skills/drawio-reconstruction/scripts/batch_manifest.py",
+      "source": "Supervisor-Skills",
+      "commit": "4bd3fef393e5ffc891c74309a5ef6c5ad3ad12c8",
+      "source_path": "skills/drawio-reconstruction/scripts/batch_manifest.py",
+      "sha256": "96df731d152de0a6b7a6fd594978ad02077e9deacfde1f3dc9f9d5b7af02adb9",
+      "bytes": 4172
+    },
+    {
+      "path": ".agents/skills/drawio-reconstruction/scripts/batch_verify.py",
+      "source": "Supervisor-Skills",
+      "commit": "4bd3fef393e5ffc891c74309a5ef6c5ad3ad12c8",
+      "source_path": "skills/drawio-reconstruction/scripts/batch_verify.py",
+      "sha256": "0c60633507a77560aeb892c724f76ee19e5ed086fa53a32ba642735972d41402",
+      "bytes": 2853
+    },
+    {
+      "path": ".agents/skills/drawio-reconstruction/scripts/check_drawio.py",
+      "source": "Supervisor-Skills",
+      "commit": "4bd3fef393e5ffc891c74309a5ef6c5ad3ad12c8",
+      "source_path": "skills/drawio-reconstruction/scripts/check_drawio.py",
+      "sha256": "4d8b8dfccc627eef2c9e9fb308bf5c64ef9377c669570a737f6fcaf41ddad732",
+      "bytes": 11872
+    },
+    {
+      "path": ".agents/skills/drawio-reconstruction/scripts/crop_assist.py",
+      "source": "Supervisor-Skills",
+      "commit": "4bd3fef393e5ffc891c74309a5ef6c5ad3ad12c8",
+      "source_path": "skills/drawio-reconstruction/scripts/crop_assist.py",
+      "sha256": "38102f26b6f376d377fda1c08df0c4ac57965c12d714bdd5774e260f4f4b51e4",
+      "bytes": 13347
+    },
+    {
+      "path": ".agents/skills/drawio-reconstruction/scripts/export_drawio.py",
+      "source": "Supervisor-Skills",
+      "commit": "4bd3fef393e5ffc891c74309a5ef6c5ad3ad12c8",
+      "source_path": "skills/drawio-reconstruction/scripts/export_drawio.py",
+      "sha256": "5a277807711fe2759e2b4d6f80a5cce60272b5038871b224989c972cb2386faa",
+      "bytes": 3378
+    },
+    {
+      "path": ".agents/skills/experimental-design/SKILL.md",
+      "source": "scientific-agent-skills",
+      "commit": "a25cf9ec00e2745d03f8704acf6f6919694ccd9a",
+      "source_path": "skills/experimental-design/SKILL.md",
+      "sha256": "db2de0f3d29b7729776a91e923c9c83801298f5ad8e88fe44570045fbefcc248",
+      "bytes": 16328
+    },
+    {
+      "path": ".agents/skills/experimental-design/references/design_types.md",
+      "source": "scientific-agent-skills",
+      "commit": "a25cf9ec00e2745d03f8704acf6f6919694ccd9a",
+      "source_path": "skills/experimental-design/references/design_types.md",
+      "sha256": "1f36f14160bc9895773a2922402869202866410c9130f2b32c5a54e5f5a6e71b",
+      "bytes": 7972
+    },
+    {
+      "path": ".agents/skills/experimental-design/references/factorial_and_doe.md",
+      "source": "scientific-agent-skills",
+      "commit": "a25cf9ec00e2745d03f8704acf6f6919694ccd9a",
+      "source_path": "skills/experimental-design/references/factorial_and_doe.md",
+      "sha256": "a59fa2279c439c096a66955b4923ad68c00d6046570665e6f6d36e807fa1de63",
+      "bytes": 9069
+    },
+    {
+      "path": ".agents/skills/experimental-design/references/randomization_and_blocking.md",
+      "source": "scientific-agent-skills",
+      "commit": "a25cf9ec00e2745d03f8704acf6f6919694ccd9a",
+      "source_path": "skills/experimental-design/references/randomization_and_blocking.md",
+      "sha256": "fabcfae913397fb8c3018b959b67ddf8fe47322b40cbf4155d898fa11738e9ae",
+      "bytes": 7831
+    },
+    {
+      "path": ".agents/skills/experimental-design/references/sequential_and_adaptive.md",
+      "source": "scientific-agent-skills",
+      "commit": "a25cf9ec00e2745d03f8704acf6f6919694ccd9a",
+      "source_path": "skills/experimental-design/references/sequential_and_adaptive.md",
+      "sha256": "83085e2cde0942de23670d3aabb30768fb576a6aa99c2e4ac6f7790b00977051",
+      "bytes": 6530
+    },
+    {
+      "path": ".agents/skills/experimental-design/scripts/doe_designs.py",
+      "source": "scientific-agent-skills",
+      "commit": "a25cf9ec00e2745d03f8704acf6f6919694ccd9a",
+      "source_path": "skills/experimental-design/scripts/doe_designs.py",
+      "sha256": "916996b5e6a5dbb9a408aa1e755a95800af70231e46d12c8c5efddb9e3e30683",
+      "bytes": 9575
+    },
+    {
+      "path": ".agents/skills/experimental-design/scripts/randomization.py",
+      "source": "scientific-agent-skills",
+      "commit": "a25cf9ec00e2745d03f8704acf6f6919694ccd9a",
+      "source_path": "skills/experimental-design/scripts/randomization.py",
+      "sha256": "c7c2eab469618a4b27548058b924ec3f4aafaf635d3797af920b9058e700bce4",
+      "bytes": 9592
+    },
+    {
+      "path": ".agents/skills/scientific-critical-thinking/SKILL.md",
+      "source": "scientific-agent-skills",
+      "commit": "a25cf9ec00e2745d03f8704acf6f6919694ccd9a",
+      "source_path": "skills/scientific-critical-thinking/SKILL.md",
+      "sha256": "563af70571b7dcd6a96bf2e303bedfdcba623b4e9f082d58f04aacbc961fdae4",
+      "bytes": 13146
+    },
+    {
+      "path": ".agents/skills/scientific-critical-thinking/references/common_biases.md",
+      "source": "scientific-agent-skills",
+      "commit": "a25cf9ec00e2745d03f8704acf6f6919694ccd9a",
+      "source_path": "skills/scientific-critical-thinking/references/common_biases.md",
+      "sha256": "641e8e8e6dfadac1643ea8691b7d3e4e58cf013f134cd42c71301878096a5a39",
+      "bytes": 12368
+    },
+    {
+      "path": ".agents/skills/scientific-critical-thinking/references/core_capabilities.md",
+      "source": "scientific-agent-skills",
+      "commit": "a25cf9ec00e2745d03f8704acf6f6919694ccd9a",
+      "source_path": "skills/scientific-critical-thinking/references/core_capabilities.md",
+      "sha256": "0f337b96aa2d7453433a17824368fbd0638b9469d4f90a5fd23f4167c9dee180",
+      "bytes": 16975
+    },
+    {
+      "path": ".agents/skills/scientific-critical-thinking/references/evidence_hierarchy.md",
+      "source": "scientific-agent-skills",
+      "commit": "a25cf9ec00e2745d03f8704acf6f6919694ccd9a",
+      "source_path": "skills/scientific-critical-thinking/references/evidence_hierarchy.md",
+      "sha256": "534fbe991ecfb2d162f755004dc528118ce74a78862917c2911595a522d76e6c",
+      "bytes": 17435
+    },
+    {
+      "path": ".agents/skills/scientific-critical-thinking/references/experimental_design.md",
+      "source": "scientific-agent-skills",
+      "commit": "a25cf9ec00e2745d03f8704acf6f6919694ccd9a",
+      "source_path": "skills/scientific-critical-thinking/references/experimental_design.md",
+      "sha256": "eca7e42025393984c07676f3d4bc354d217e5604dc2209c76215d31953a7c74c",
+      "bytes": 18227
+    },
+    {
+      "path": ".agents/skills/scientific-critical-thinking/references/logical_fallacies.md",
+      "source": "scientific-agent-skills",
+      "commit": "a25cf9ec00e2745d03f8704acf6f6919694ccd9a",
+      "source_path": "skills/scientific-critical-thinking/references/logical_fallacies.md",
+      "sha256": "becfc5bfac7b831dca67cc442cd0fcb42d8eea527a6fc2921c1b704e592ff593",
+      "bytes": 18659
+    },
+    {
+      "path": ".agents/skills/scientific-critical-thinking/references/review_sources.md",
+      "source": "scientific-agent-skills",
+      "commit": "a25cf9ec00e2745d03f8704acf6f6919694ccd9a",
+      "source_path": "skills/scientific-critical-thinking/references/review_sources.md",
+      "sha256": "71e75106f36f3e69b28959ad1fec503ccdb21b7f5361ab230173e4812accbf62",
+      "bytes": 7557
+    },
+    {
+      "path": ".agents/skills/scientific-critical-thinking/references/scientific_method.md",
+      "source": "scientific-agent-skills",
+      "commit": "a25cf9ec00e2745d03f8704acf6f6919694ccd9a",
+      "source_path": "skills/scientific-critical-thinking/references/scientific_method.md",
+      "sha256": "5aa925b97c7a916f819dafc8b42a9c24e4bd3eb2836594e724f1e7f9ae75ea0f",
+      "bytes": 7641
+    },
+    {
+      "path": ".agents/skills/scientific-critical-thinking/references/statistical_pitfalls.md",
+      "source": "scientific-agent-skills",
+      "commit": "a25cf9ec00e2745d03f8704acf6f6919694ccd9a",
+      "source_path": "skills/scientific-critical-thinking/references/statistical_pitfalls.md",
+      "sha256": "0c43204a0a81110cfeb7c982fa4caa89f274bdcebf096e09e5adfccf31241cb9",
+      "bytes": 21151
+    },
+    {
+      "path": ".agents/skills/peer-review/SKILL.md",
+      "source": "scientific-agent-skills",
+      "commit": "a25cf9ec00e2745d03f8704acf6f6919694ccd9a",
+      "source_path": "skills/peer-review/SKILL.md",
+      "sha256": "a042ccdc76d3399431b9a6c4cd4f98968eab964b1c14baeea4d9e73de82c7d19",
+      "bytes": 13853
+    },
+    {
+      "path": ".agents/skills/peer-review/assets/citation_references_template.csv",
+      "source": "scientific-agent-skills",
+      "commit": "a25cf9ec00e2745d03f8704acf6f6919694ccd9a",
+      "source_path": "skills/peer-review/assets/citation_references_template.csv",
+      "sha256": "e00b259742a0716661d8adba1e81fc7ca722cea32c3cfe5a5e29509844ed742b",
+      "bytes": 196
+    },
+    {
+      "path": ".agents/skills/peer-review/assets/claim_evidence_matrix_template.csv",
+      "source": "scientific-agent-skills",
+      "commit": "a25cf9ec00e2745d03f8704acf6f6919694ccd9a",
+      "source_path": "skills/peer-review/assets/claim_evidence_matrix_template.csv",
+      "sha256": "06e1215c998a978bdbbe30008040536902abe138e0f790b243ecaee1f21b7da7",
+      "bytes": 745
+    },
+    {
+      "path": ".agents/skills/peer-review/assets/reporting_checklist_template.csv",
+      "source": "scientific-agent-skills",
+      "commit": "a25cf9ec00e2745d03f8704acf6f6919694ccd9a",
+      "source_path": "skills/peer-review/assets/reporting_checklist_template.csv",
+      "sha256": "02709793bc1702fadc760e7089398eb28351b22885a08cbea6c85f135e931ee1",
+      "bytes": 968
+    },
+    {
+      "path": ".agents/skills/peer-review/assets/reporting_guidelines.json",
+      "source": "scientific-agent-skills",
+      "commit": "a25cf9ec00e2745d03f8704acf6f6919694ccd9a",
+      "source_path": "skills/peer-review/assets/reporting_guidelines.json",
+      "sha256": "cf95b9a4e1f54016c800e8b3ff02191e7bc60593e30c043231d47d91259250ac",
+      "bytes": 14452
+    },
+    {
+      "path": ".agents/skills/peer-review/assets/review_intake_template.json",
+      "source": "scientific-agent-skills",
+      "commit": "a25cf9ec00e2745d03f8704acf6f6919694ccd9a",
+      "source_path": "skills/peer-review/assets/review_intake_template.json",
+      "sha256": "14d7e00cdc710b8235c80faa71f4c5712c1db1a0a2d734fd4fa9807bbc960438",
+      "bytes": 1290
+    },
+    {
+      "path": ".agents/skills/peer-review/assets/review_scaffold_template.md",
+      "source": "scientific-agent-skills",
+      "commit": "a25cf9ec00e2745d03f8704acf6f6919694ccd9a",
+      "source_path": "skills/peer-review/assets/review_scaffold_template.md",
+      "sha256": "4e320c9a6238ac7ea2494a4c486e93d1eaf2c5239aab80fcd8eea70a6e359102",
+      "bytes": 3025
+    },
+    {
+      "path": ".agents/skills/peer-review/assets/source_ledger.csv",
+      "source": "scientific-agent-skills",
+      "commit": "a25cf9ec00e2745d03f8704acf6f6919694ccd9a",
+      "source_path": "skills/peer-review/assets/source_ledger.csv",
+      "sha256": "9226c94f1066b8c8f9a2a65d6aea08a3471ec36e19f835908573690282a8e737",
+      "bytes": 13407
+    },
+    {
+      "path": ".agents/skills/peer-review/assets/statistical_reproducibility_template.json",
+      "source": "scientific-agent-skills",
+      "commit": "a25cf9ec00e2745d03f8704acf6f6919694ccd9a",
+      "source_path": "skills/peer-review/assets/statistical_reproducibility_template.json",
+      "sha256": "071bfc0b1e1edb9d09c539b5c6e291e43e8d719cbe50cfdeac1044fe8f0b69a3",
+      "bytes": 7281
+    },
+    {
+      "path": ".agents/skills/peer-review/assets/study_profile_template.json",
+      "source": "scientific-agent-skills",
+      "commit": "a25cf9ec00e2745d03f8704acf6f6919694ccd9a",
+      "source_path": "skills/peer-review/assets/study_profile_template.json",
+      "sha256": "bc0c19b9ad478c78c4b5111bcd913faca8046e0833815b1bd579a046f737df40",
+      "bytes": 197
+    },
+    {
+      "path": ".agents/skills/peer-review/references/common_issues.md",
+      "source": "scientific-agent-skills",
+      "commit": "a25cf9ec00e2745d03f8704acf6f6919694ccd9a",
+      "source_path": "skills/peer-review/references/common_issues.md",
+      "sha256": "6a0979d6d64e07f769db8ee9ab82ad3190aebaca4294838f338f5c4b51b596f6",
+      "bytes": 13999
+    },
+    {
+      "path": ".agents/skills/peer-review/references/ethical_review_practice.md",
+      "source": "scientific-agent-skills",
+      "commit": "a25cf9ec00e2745d03f8704acf6f6919694ccd9a",
+      "source_path": "skills/peer-review/references/ethical_review_practice.md",
+      "sha256": "d61f27a471f9b42160ae303cb13df2b034085e037b5647cbc0bbf2de8435b1d7",
+      "bytes": 12209
+    },
+    {
+      "path": ".agents/skills/peer-review/references/reporting_standards.md",
+      "source": "scientific-agent-skills",
+      "commit": "a25cf9ec00e2745d03f8704acf6f6919694ccd9a",
+      "source_path": "skills/peer-review/references/reporting_standards.md",
+      "sha256": "19ececda52568269987be1dff81900471433353dee8bb8a28a06f3691cb051c2",
+      "bytes": 15438
+    },
+    {
+      "path": ".agents/skills/peer-review/references/security_validation.md",
+      "source": "scientific-agent-skills",
+      "commit": "a25cf9ec00e2745d03f8704acf6f6919694ccd9a",
+      "source_path": "skills/peer-review/references/security_validation.md",
+      "sha256": "3d24c7aa7d7b1d1a7df410307d95993b63dff79bf01c400a1c154df19fcf737d",
+      "bytes": 4166
+    },
+    {
+      "path": ".agents/skills/peer-review/references/statistical_reproducibility.md",
+      "source": "scientific-agent-skills",
+      "commit": "a25cf9ec00e2745d03f8704acf6f6919694ccd9a",
+      "source_path": "skills/peer-review/references/statistical_reproducibility.md",
+      "sha256": "aab5c13d19525fc4626a4153a90ba63231324d609e16bbf569d874c974731bd6",
+      "bytes": 11755
+    },
+    {
+      "path": ".agents/skills/peer-review/references/tool_reference.md",
+      "source": "scientific-agent-skills",
+      "commit": "a25cf9ec00e2745d03f8704acf6f6919694ccd9a",
+      "source_path": "skills/peer-review/references/tool_reference.md",
+      "sha256": "d765fa7a03712049174b2c288718a602c623fd2233b6fa451bbd6854eb0c46c1",
+      "bytes": 9670
+    },
+    {
+      "path": ".agents/skills/peer-review/scripts/_common.py",
+      "source": "scientific-agent-skills",
+      "commit": "a25cf9ec00e2745d03f8704acf6f6919694ccd9a",
+      "source_path": "skills/peer-review/scripts/_common.py",
+      "sha256": "78e751bd8024d4df69a6a7ab82497424d58da06d751f4cb97ba4fc75eb9044db",
+      "bytes": 13896
+    },
+    {
+      "path": ".agents/skills/peer-review/scripts/audit_citations.py",
+      "source": "scientific-agent-skills",
+      "commit": "a25cf9ec00e2745d03f8704acf6f6919694ccd9a",
+      "source_path": "skills/peer-review/scripts/audit_citations.py",
+      "sha256": "9521d624dce092b93f36e3c4c7dd9cab151b24d2e623d0b299adbef239100e47",
+      "bytes": 7097
+    },
+    {
+      "path": ".agents/skills/peer-review/scripts/audit_statistics_reproducibility.py",
+      "source": "scientific-agent-skills",
+      "commit": "a25cf9ec00e2745d03f8704acf6f6919694ccd9a",
+      "source_path": "skills/peer-review/scripts/audit_statistics_reproducibility.py",
+      "sha256": "8daf60d78a2758665b5c676d1d68e52c57c5c1988249fdbbaba62d31a49c495b",
+      "bytes": 10455
+    },
+    {
+      "path": ".agents/skills/peer-review/scripts/generate_review_scaffold.py",
+      "source": "scientific-agent-skills",
+      "commit": "a25cf9ec00e2745d03f8704acf6f6919694ccd9a",
+      "source_path": "skills/peer-review/scripts/generate_review_scaffold.py",
+      "sha256": "3c2d6dc36e8e5fdd0313422d30da8c31a7ca808618818db376e348fe8d38fd2c",
+      "bytes": 2634
+    },
+    {
+      "path": ".agents/skills/peer-review/scripts/lint_review.py",
+      "source": "scientific-agent-skills",
+      "commit": "a25cf9ec00e2745d03f8704acf6f6919694ccd9a",
+      "source_path": "skills/peer-review/scripts/lint_review.py",
+      "sha256": "623878c26ede3d74f2ddf0e0a15acbade40d10009c66ab334550b814b2361e75",
+      "bytes": 9085
+    },
+    {
+      "path": ".agents/skills/peer-review/scripts/select_reporting_guidelines.py",
+      "source": "scientific-agent-skills",
+      "commit": "a25cf9ec00e2745d03f8704acf6f6919694ccd9a",
+      "source_path": "skills/peer-review/scripts/select_reporting_guidelines.py",
+      "sha256": "9ccbbdeca6df01f2f4e1c86b98db0e9ab0a43685c6726e1abfdb9bbaa2b92ae3",
+      "bytes": 13594
+    },
+    {
+      "path": ".agents/skills/peer-review/scripts/validate_claim_evidence.py",
+      "source": "scientific-agent-skills",
+      "commit": "a25cf9ec00e2745d03f8704acf6f6919694ccd9a",
+      "source_path": "skills/peer-review/scripts/validate_claim_evidence.py",
+      "sha256": "93490b289f288ed686a8eb300bf40693e7caf148b5022b180077f0db22acbe2b",
+      "bytes": 7083
+    },
+    {
+      "path": ".agents/skills/peer-review/scripts/validate_review_intake.py",
+      "source": "scientific-agent-skills",
+      "commit": "a25cf9ec00e2745d03f8704acf6f6919694ccd9a",
+      "source_path": "skills/peer-review/scripts/validate_review_intake.py",
+      "sha256": "0ad9038d96a7867fa8268b70aff4f69ec1e2472b6399bbc04feb5c6fd842d5fa",
+      "bytes": 14486
+    },
+    {
+      "path": ".agents/skills/hypothesis-generation/SKILL.md",
+      "source": "scientific-agent-skills",
+      "commit": "a25cf9ec00e2745d03f8704acf6f6919694ccd9a",
+      "source_path": "skills/hypothesis-generation/SKILL.md",
+      "sha256": "5bccec0437d96d61821ec2095e7e32b61e8634cd8c02f11f42da953121e92719",
+      "bytes": 16622
+    },
+    {
+      "path": ".agents/skills/hypothesis-generation/assets/evidence_ledger_template.csv",
+      "source": "scientific-agent-skills",
+      "commit": "a25cf9ec00e2745d03f8704acf6f6919694ccd9a",
+      "source_path": "skills/hypothesis-generation/assets/evidence_ledger_template.csv",
+      "sha256": "1ec5cc4ada96e05041c67865bcdfd3bb0a4f7cc92f24ca1ce7a826028a41d3de",
+      "bytes": 581
+    },
+    {
+      "path": ".agents/skills/hypothesis-generation/assets/falsification_controls_template.json",
+      "source": "scientific-agent-skills",
+      "commit": "a25cf9ec00e2745d03f8704acf6f6919694ccd9a",
+      "source_path": "skills/hypothesis-generation/assets/falsification_controls_template.json",
+      "sha256": "beea4e2be3b5abdad1014934a7c2fe1f9f00f07b3270119cfeb8134a94603e26",
+      "bytes": 5880
+    },
+    {
+      "path": ".agents/skills/hypothesis-generation/assets/hypothesis_record_template.json",
+      "source": "scientific-agent-skills",
+      "commit": "a25cf9ec00e2745d03f8704acf6f6919694ccd9a",
+      "source_path": "skills/hypothesis-generation/assets/hypothesis_record_template.json",
+      "sha256": "73f080a6696c415f228b38100bb7b0f6bc89ad2c7997bf50d62b585b0bc8fe0c",
+      "bytes": 13768
+    },
+    {
+      "path": ".agents/skills/hypothesis-generation/assets/operationalization_template.json",
+      "source": "scientific-agent-skills",
+      "commit": "a25cf9ec00e2745d03f8704acf6f6919694ccd9a",
+      "source_path": "skills/hypothesis-generation/assets/operationalization_template.json",
+      "sha256": "36ecdbd91c022554e60db646b548f5694d8409277a5b15fdf309d86f8c1e3070",
+      "bytes": 2208
+    },
+    {
+      "path": ".agents/skills/hypothesis-generation/assets/prediction_rival_matrix_template.csv",
+      "source": "scientific-agent-skills",
+      "commit": "a25cf9ec00e2745d03f8704acf6f6919694ccd9a",
+      "source_path": "skills/hypothesis-generation/assets/prediction_rival_matrix_template.csv",
+      "sha256": "ccf6cb53c048a9f4d60788a8ec73c5d683ec549dab7df95b30282f6c0963653a",
+      "bytes": 1638
+    },
+    {
+      "path": ".agents/skills/hypothesis-generation/assets/preregistration_scaffold_template.md",
+      "source": "scientific-agent-skills",
+      "commit": "a25cf9ec00e2745d03f8704acf6f6919694ccd9a",
+      "source_path": "skills/hypothesis-generation/assets/preregistration_scaffold_template.md",
+      "sha256": "fa577c7413435054ed927a9a925abc2f3a99373e55431eb6407425670276d87b",
+      "bytes": 5102
+    },
+    {
+      "path": ".agents/skills/hypothesis-generation/assets/search_boundary_template.json",
+      "source": "scientific-agent-skills",
+      "commit": "a25cf9ec00e2745d03f8704acf6f6919694ccd9a",
+      "source_path": "skills/hypothesis-generation/assets/search_boundary_template.json",
+      "sha256": "b885d4e252c0df7010d8fca3dab7e3fef49e9f386b7a1b15240531ce374bf6ec",
+      "bytes": 1114
+    },
+    {
+      "path": ".agents/skills/hypothesis-generation/assets/source_ledger.csv",
+      "source": "scientific-agent-skills",
+      "commit": "a25cf9ec00e2745d03f8704acf6f6919694ccd9a",
+      "source_path": "skills/hypothesis-generation/assets/source_ledger.csv",
+      "sha256": "9543f313b9cffec9bd2cf39376edca86d39c10635b447fa7689147931d8c4813",
+      "bytes": 15163
+    },
+    {
+      "path": ".agents/skills/hypothesis-generation/references/causal_inference_and_claims.md",
+      "source": "scientific-agent-skills",
+      "commit": "a25cf9ec00e2745d03f8704acf6f6919694ccd9a",
+      "source_path": "skills/hypothesis-generation/references/causal_inference_and_claims.md",
+      "sha256": "0162cd131dd12c6235a3b78c033c685abd80e98d5f40f9fb297b4d8104f85122",
+      "bytes": 7993
+    },
+    {
+      "path": ".agents/skills/hypothesis-generation/references/concepts_and_workflow.md",
+      "source": "scientific-agent-skills",
+      "commit": "a25cf9ec00e2745d03f8704acf6f6919694ccd9a",
+      "source_path": "skills/hypothesis-generation/references/concepts_and_workflow.md",
+      "sha256": "a86a8f464fb555212e79bf13e307f3c129e9c853069856eb3c93c3c8a60bb7fc",
+      "bytes": 7341
+    },
+    {
+      "path": ".agents/skills/hypothesis-generation/references/ethics_safety_and_ai.md",
+      "source": "scientific-agent-skills",
+      "commit": "a25cf9ec00e2745d03f8704acf6f6919694ccd9a",
+      "source_path": "skills/hypothesis-generation/references/ethics_safety_and_ai.md",
+      "sha256": "81d5691cd46d646ead2db50635bdcc07755e5f738b040c2ad707ac3b0eda034d",
+      "bytes": 10507
+    },
+    {
+      "path": ".agents/skills/hypothesis-generation/references/experimental_design_patterns.md",
+      "source": "scientific-agent-skills",
+      "commit": "a25cf9ec00e2745d03f8704acf6f6919694ccd9a",
+      "source_path": "skills/hypothesis-generation/references/experimental_design_patterns.md",
+      "sha256": "83c0c75c7b1edadc92e4ae23607624277c19955fc6a71ee0313b6efc51e4e939",
+      "bytes": 9765
+    },
+    {
+      "path": ".agents/skills/hypothesis-generation/references/hypothesis_quality_criteria.md",
+      "source": "scientific-agent-skills",
+      "commit": "a25cf9ec00e2745d03f8704acf6f6919694ccd9a",
+      "source_path": "skills/hypothesis-generation/references/hypothesis_quality_criteria.md",
+      "sha256": "12698b549f77a6ee64807b959093f39628fe3d47aa9a00a9b235681bf0b09269",
+      "bytes": 8035
+    },
+    {
+      "path": ".agents/skills/hypothesis-generation/references/literature_search_strategies.md",
+      "source": "scientific-agent-skills",
+      "commit": "a25cf9ec00e2745d03f8704acf6f6919694ccd9a",
+      "source_path": "skills/hypothesis-generation/references/literature_search_strategies.md",
+      "sha256": "2a34fa0645f854093aea2d867059bae563c795f1935ba4b9c6d494bdc389fdcb",
+      "bytes": 8046
+    },
+    {
+      "path": ".agents/skills/hypothesis-generation/references/preregistration_and_open_science.md",
+      "source": "scientific-agent-skills",
+      "commit": "a25cf9ec00e2745d03f8704acf6f6919694ccd9a",
+      "source_path": "skills/hypothesis-generation/references/preregistration_and_open_science.md",
+      "sha256": "33788e3cd4eeb62e80e9fb952e3bfb532320d373e7b00ed7c0a75b4200ccdbf4",
+      "bytes": 7751
+    },
+    {
+      "path": ".agents/skills/hypothesis-generation/references/security_validation.md",
+      "source": "scientific-agent-skills",
+      "commit": "a25cf9ec00e2745d03f8704acf6f6919694ccd9a",
+      "source_path": "skills/hypothesis-generation/references/security_validation.md",
+      "sha256": "71acbc8d040588f1ab879cafeb0e7d491cbed99359bde011c645d289446ba38a",
+      "bytes": 4199
+    },
+    {
+      "path": ".agents/skills/hypothesis-generation/references/source_ledger.md",
+      "source": "scientific-agent-skills",
+      "commit": "a25cf9ec00e2745d03f8704acf6f6919694ccd9a",
+      "source_path": "skills/hypothesis-generation/references/source_ledger.md",
+      "sha256": "b0281b810134599210f905f967267f0b44638676f673fca7528275f8e5042e55",
+      "bytes": 10009
+    },
+    {
+      "path": ".agents/skills/hypothesis-generation/references/tool_reference.md",
+      "source": "scientific-agent-skills",
+      "commit": "a25cf9ec00e2745d03f8704acf6f6919694ccd9a",
+      "source_path": "skills/hypothesis-generation/references/tool_reference.md",
+      "sha256": "db2c2f8fefc4093c0e235a309de3ee5767c672519d8c8b681e65f7ac6a9ff5d7",
+      "bytes": 8397
+    },
+    {
+      "path": ".agents/skills/hypothesis-generation/scripts/_common.py",
+      "source": "scientific-agent-skills",
+      "commit": "a25cf9ec00e2745d03f8704acf6f6919694ccd9a",
+      "source_path": "skills/hypothesis-generation/scripts/_common.py",
+      "sha256": "7a41a5f9b97092ee188d45959f38f92a4215d4f298dd04fd0f2817e9f607e74e",
+      "bytes": 15316
+    },
+    {
+      "path": ".agents/skills/hypothesis-generation/scripts/audit_evidence_ledger.py",
+      "source": "scientific-agent-skills",
+      "commit": "a25cf9ec00e2745d03f8704acf6f6919694ccd9a",
+      "source_path": "skills/hypothesis-generation/scripts/audit_evidence_ledger.py",
+      "sha256": "18fc0a947fec34ea573eb824f540ce6ccb351aed5e08fc80ae476c2150aef2bb",
+      "bytes": 12069
+    },
+    {
+      "path": ".agents/skills/hypothesis-generation/scripts/check_falsification_controls.py",
+      "source": "scientific-agent-skills",
+      "commit": "a25cf9ec00e2745d03f8704acf6f6919694ccd9a",
+      "source_path": "skills/hypothesis-generation/scripts/check_falsification_controls.py",
+      "sha256": "e56f67b92d15c93cbe9eb1b9fb89253239b6ac81328fb56fc96d9e2c3ec3ba32",
+      "bytes": 16477
+    },
+    {
+      "path": ".agents/skills/hypothesis-generation/scripts/check_operationalization.py",
+      "source": "scientific-agent-skills",
+      "commit": "a25cf9ec00e2745d03f8704acf6f6919694ccd9a",
+      "source_path": "skills/hypothesis-generation/scripts/check_operationalization.py",
+      "sha256": "efc093f4b58b23e095238e60badef04d34dfb012b7958e1326a1f7d58ed5edd6",
+      "bytes": 8086
+    },
+    {
+      "path": ".agents/skills/hypothesis-generation/scripts/generate_preregistration_scaffold.py",
+      "source": "scientific-agent-skills",
+      "commit": "a25cf9ec00e2745d03f8704acf6f6919694ccd9a",
+      "source_path": "skills/hypothesis-generation/scripts/generate_preregistration_scaffold.py",
+      "sha256": "12df2ad3bcd47ef172b3284e9c8c543ef01ba415d3ab21ffe3ead079cdc454da",
+      "bytes": 14287
+    },
+    {
+      "path": ".agents/skills/hypothesis-generation/scripts/lint_causal_claims.py",
+      "source": "scientific-agent-skills",
+      "commit": "a25cf9ec00e2745d03f8704acf6f6919694ccd9a",
+      "source_path": "skills/hypothesis-generation/scripts/lint_causal_claims.py",
+      "sha256": "561186e71f7c0b573f7ba45ef0009460c1398048929ed55fad53a65cda56dafe",
+      "bytes": 6809
+    },
+    {
+      "path": ".agents/skills/hypothesis-generation/scripts/validate_hypothesis_schema.py",
+      "source": "scientific-agent-skills",
+      "commit": "a25cf9ec00e2745d03f8704acf6f6919694ccd9a",
+      "source_path": "skills/hypothesis-generation/scripts/validate_hypothesis_schema.py",
+      "sha256": "63bc1b7752d20042c2845ecb2457448ec8e2d9bc8fe1337003b222f8f4620608",
+      "bytes": 38955
+    },
+    {
+      "path": ".agents/skills/hypothesis-generation/scripts/validate_prediction_matrix.py",
+      "source": "scientific-agent-skills",
+      "commit": "a25cf9ec00e2745d03f8704acf6f6919694ccd9a",
+      "source_path": "skills/hypothesis-generation/scripts/validate_prediction_matrix.py",
+      "sha256": "3888802496f4e6ece5955b4fe28d6b2e6d810c5107ce6ca45ebbd70acceed317",
+      "bytes": 9815
+    },
+    {
+      "path": ".agents/skills/scientific-brainstorming/SKILL.md",
+      "source": "scientific-agent-skills",
+      "commit": "a25cf9ec00e2745d03f8704acf6f6919694ccd9a",
+      "source_path": "skills/scientific-brainstorming/SKILL.md",
+      "sha256": "06f73b71556356a7f488c369b9445d7943543a3f14d159b2168fd3f621d6f8a9",
+      "bytes": 14658
+    },
+    {
+      "path": ".agents/skills/scientific-brainstorming/references/brainstorming_methods.md",
+      "source": "scientific-agent-skills",
+      "commit": "a25cf9ec00e2745d03f8704acf6f6919694ccd9a",
+      "source_path": "skills/scientific-brainstorming/references/brainstorming_methods.md",
+      "sha256": "2c3749f38c4a9ba0f310b04679b870cbf603d923aa30b82dd92720a7d2977632",
+      "bytes": 12505
+    },
+    {
+      "path": ".agents/skills/scientific-brainstorming/references/facilitation_workflows.md",
+      "source": "scientific-agent-skills",
+      "commit": "a25cf9ec00e2745d03f8704acf6f6919694ccd9a",
+      "source_path": "skills/scientific-brainstorming/references/facilitation_workflows.md",
+      "sha256": "bfb2acc43472f4649b10f2c3db02180fa9c86636f375f82d8bc36b28075a5ccc",
+      "bytes": 10016
+    },
+    {
+      "path": ".agents/skills/scientific-brainstorming/references/idea_evaluation.md",
+      "source": "scientific-agent-skills",
+      "commit": "a25cf9ec00e2745d03f8704acf6f6919694ccd9a",
+      "source_path": "skills/scientific-brainstorming/references/idea_evaluation.md",
+      "sha256": "5a5fcb319cdcc151a9acd17e0e501d270e55f7a9fb6a829c87c43af5b5705d14",
+      "bytes": 12165
+    },
+    {
+      "path": ".agents/skills/scientific-brainstorming/references/responsible_ai.md",
+      "source": "scientific-agent-skills",
+      "commit": "a25cf9ec00e2745d03f8704acf6f6919694ccd9a",
+      "source_path": "skills/scientific-brainstorming/references/responsible_ai.md",
+      "sha256": "d5b61b2555b72914d1e2cfb6e84496ce80fc2d24a3001c9eefa04cca336b9830",
+      "bytes": 10584
+    },
+    {
+      "path": ".agents/skills/scientific-brainstorming/references/sources.md",
+      "source": "scientific-agent-skills",
+      "commit": "a25cf9ec00e2745d03f8704acf6f6919694ccd9a",
+      "source_path": "skills/scientific-brainstorming/references/sources.md",
+      "sha256": "ab4ab107ea4f94b21ce85aec6e63d3701e56a546c4840ccfd8dab5f2cdd52210",
+      "bytes": 17660
+    },
+    {
+      "path": ".agents/skills/scientific-brainstorming/scripts/_common.py",
+      "source": "scientific-agent-skills",
+      "commit": "a25cf9ec00e2745d03f8704acf6f6919694ccd9a",
+      "source_path": "skills/scientific-brainstorming/scripts/_common.py",
+      "sha256": "271bc1a013d83dc1bab41dc3fd3d70bae3d6f7549db70c678debfc50251efe19",
+      "bytes": 9933
+    },
+    {
+      "path": ".agents/skills/scientific-brainstorming/scripts/evaluate_matrix.py",
+      "source": "scientific-agent-skills",
+      "commit": "a25cf9ec00e2745d03f8704acf6f6919694ccd9a",
+      "source_path": "skills/scientific-brainstorming/scripts/evaluate_matrix.py",
+      "sha256": "ed38f33a7b35045217fe40b6b57ebb370c584891392899b74f4e4530e72f2215",
+      "bytes": 20137
+    },
+    {
+      "path": ".agents/skills/scientific-brainstorming/scripts/session_scaffold.py",
+      "source": "scientific-agent-skills",
+      "commit": "a25cf9ec00e2745d03f8704acf6f6919694ccd9a",
+      "source_path": "skills/scientific-brainstorming/scripts/session_scaffold.py",
+      "sha256": "0af7b297a8f92f1c7456b7e14c717a017315b4a71b603ca5402434dee98db5ba",
+      "bytes": 7930
+    },
+    {
+      "path": ".agents/skills/scientific-brainstorming/scripts/validate_register.py",
+      "source": "scientific-agent-skills",
+      "commit": "a25cf9ec00e2745d03f8704acf6f6919694ccd9a",
+      "source_path": "skills/scientific-brainstorming/scripts/validate_register.py",
+      "sha256": "765e57854efe9e28b4965d23b073eb67ffdc8cc0c7ac0b47d9240e4cc8ea1bd5",
+      "bytes": 20872
+    },
+    {
+      "path": ".agents/skills/scholar-evaluation/SKILL.md",
+      "source": "scientific-agent-skills",
+      "commit": "a25cf9ec00e2745d03f8704acf6f6919694ccd9a",
+      "source_path": "skills/scholar-evaluation/SKILL.md",
+      "sha256": "9abc66a9ba13f6cf0f61614ddfff17822b5be2cc7118f52ef2631323dac8c94e",
+      "bytes": 12418
+    },
+    {
+      "path": ".agents/skills/scholar-evaluation/assets/evaluation_template.json",
+      "source": "scientific-agent-skills",
+      "commit": "a25cf9ec00e2745d03f8704acf6f6919694ccd9a",
+      "source_path": "skills/scholar-evaluation/assets/evaluation_template.json",
+      "sha256": "8b77953138471a80b2f2a6d20ab5b5a2dc7670afa492a74d92975e9f86ec4ce0",
+      "bytes": 1344
+    },
+    {
+      "path": ".agents/skills/scholar-evaluation/assets/evidence_manifest_template.json",
+      "source": "scientific-agent-skills",
+      "commit": "a25cf9ec00e2745d03f8704acf6f6919694ccd9a",
+      "source_path": "skills/scholar-evaluation/assets/evidence_manifest_template.json",
+      "sha256": "51512b9f307db9fb451c03f90be399e42d3216dcaecc22e67e037ceda3e5b0cb",
+      "bytes": 1841
+    },
+    {
+      "path": ".agents/skills/scholar-evaluation/assets/process_checklist_template.json",
+      "source": "scientific-agent-skills",
+      "commit": "a25cf9ec00e2745d03f8704acf6f6919694ccd9a",
+      "source_path": "skills/scholar-evaluation/assets/process_checklist_template.json",
+      "sha256": "de0897b2404f6fd32a0a9aa22406d7830f912f6ab39f3cac4dc34bdce5af8ac3",
+      "bytes": 2130
+    },
+    {
+      "path": ".agents/skills/scholar-evaluation/assets/ratings_template.csv",
+      "source": "scientific-agent-skills",
+      "commit": "a25cf9ec00e2745d03f8704acf6f6919694ccd9a",
+      "source_path": "skills/scholar-evaluation/assets/ratings_template.csv",
+      "sha256": "0c518d16760d551a28ae474f65c79ded02b4a97b8121b0ef3d907201b65b1ba6",
+      "bytes": 1762
+    },
+    {
+      "path": ".agents/skills/scholar-evaluation/assets/rubric_template.json",
+      "source": "scientific-agent-skills",
+      "commit": "a25cf9ec00e2745d03f8704acf6f6919694ccd9a",
+      "source_path": "skills/scholar-evaluation/assets/rubric_template.json",
+      "sha256": "ab428fcb3cef141c5d7eaa0a206b6c89087a1593af3d953ee2ff1efb31aa79f3",
+      "bytes": 12217
+    },
+    {
+      "path": ".agents/skills/scholar-evaluation/references/evaluation_framework.md",
+      "source": "scientific-agent-skills",
+      "commit": "a25cf9ec00e2745d03f8704acf6f6919694ccd9a",
+      "source_path": "skills/scholar-evaluation/references/evaluation_framework.md",
+      "sha256": "86028eb58c9fdf5a0bb34ffd37a3567c49bfafa7cb9e9ebecb3e88ddd5ecbac9",
+      "bytes": 10599
+    },
+    {
+      "path": ".agents/skills/scholar-evaluation/references/local_tooling.md",
+      "source": "scientific-agent-skills",
+      "commit": "a25cf9ec00e2745d03f8704acf6f6919694ccd9a",
+      "source_path": "skills/scholar-evaluation/references/local_tooling.md",
+      "sha256": "762ce1f939680cc99e7f6f05964dbd1205c905e929a51adea8bb8c5809758ca8",
+      "bytes": 9341
+    },
+    {
+      "path": ".agents/skills/scholar-evaluation/references/responsible_assessment.md",
+      "source": "scientific-agent-skills",
+      "commit": "a25cf9ec00e2745d03f8704acf6f6919694ccd9a",
+      "source_path": "skills/scholar-evaluation/references/responsible_assessment.md",
+      "sha256": "5730df99eb16deab151777d7bfb88253da3eb60e1d8184bb5ae39a1dd4e09406",
+      "bytes": 9848
+    },
+    {
+      "path": ".agents/skills/scholar-evaluation/references/security_validation.md",
+      "source": "scientific-agent-skills",
+      "commit": "a25cf9ec00e2745d03f8704acf6f6919694ccd9a",
+      "source_path": "skills/scholar-evaluation/references/security_validation.md",
+      "sha256": "093d3ff3cf7309db0a4262f77d5f3496120548dd75b169856a4a0a009ed60e22",
+      "bytes": 4294
+    },
+    {
+      "path": ".agents/skills/scholar-evaluation/references/source_ledger.md",
+      "source": "scientific-agent-skills",
+      "commit": "a25cf9ec00e2745d03f8704acf6f6919694ccd9a",
+      "source_path": "skills/scholar-evaluation/references/source_ledger.md",
+      "sha256": "43c364cd3a2b1dbdb5845092d63396f7ee8ac384964ae447951cc5656937d4cf",
+      "bytes": 14146
+    },
+    {
+      "path": ".agents/skills/scholar-evaluation/scripts/_common.py",
+      "source": "scientific-agent-skills",
+      "commit": "a25cf9ec00e2745d03f8704acf6f6919694ccd9a",
+      "source_path": "skills/scholar-evaluation/scripts/_common.py",
+      "sha256": "5f90929c6cbe23c73f7b25d749be11d2fa0e6f3d6aea832bf1e313e2e450404c",
+      "bytes": 36406
+    },
+    {
+      "path": ".agents/skills/scholar-evaluation/scripts/calculate_scores.py",
+      "source": "scientific-agent-skills",
+      "commit": "a25cf9ec00e2745d03f8704acf6f6919694ccd9a",
+      "source_path": "skills/scholar-evaluation/scripts/calculate_scores.py",
+      "sha256": "07a1cd73cca097edd15acebe65531d9254e6e9f316b4a30e1eca5fd252cb697b",
+      "bytes": 1885
+    },
+    {
+      "path": ".agents/skills/scholar-evaluation/scripts/check_process.py",
+      "source": "scientific-agent-skills",
+      "commit": "a25cf9ec00e2745d03f8704acf6f6919694ccd9a",
+      "source_path": "skills/scholar-evaluation/scripts/check_process.py",
+      "sha256": "12c78b6d09f76a25a7f1530e1f719f6ccbeabe03d83cb63525a09358edc1da2b",
+      "bytes": 8327
+    },
+    {
+      "path": ".agents/skills/scholar-evaluation/scripts/check_traceability.py",
+      "source": "scientific-agent-skills",
+      "commit": "a25cf9ec00e2745d03f8704acf6f6919694ccd9a",
+      "source_path": "skills/scholar-evaluation/scripts/check_traceability.py",
+      "sha256": "609fe62d80638b368039cc0b2a0fb115d6a7c99e630ce0e54d117de80d4b4bb4",
+      "bytes": 9118
+    },
+    {
+      "path": ".agents/skills/scholar-evaluation/scripts/generate_report_scaffold.py",
+      "source": "scientific-agent-skills",
+      "commit": "a25cf9ec00e2745d03f8704acf6f6919694ccd9a",
+      "source_path": "skills/scholar-evaluation/scripts/generate_report_scaffold.py",
+      "sha256": "3a9470d2517ced5b25ae1ca732f59a26771cada09f3e5b2d06b4ba32cdbddb3d",
+      "bytes": 9657
+    },
+    {
+      "path": ".agents/skills/scholar-evaluation/scripts/summarize_agreement.py",
+      "source": "scientific-agent-skills",
+      "commit": "a25cf9ec00e2745d03f8704acf6f6919694ccd9a",
+      "source_path": "skills/scholar-evaluation/scripts/summarize_agreement.py",
+      "sha256": "78dc8809873242b4fa8afeb44e6384cc50b5540098cf988e277cf7cbeb3a8e6f",
+      "bytes": 11340
+    },
+    {
+      "path": ".agents/skills/scholar-evaluation/scripts/validate_rubric.py",
+      "source": "scientific-agent-skills",
+      "commit": "a25cf9ec00e2745d03f8704acf6f6919694ccd9a",
+      "source_path": "skills/scholar-evaluation/scripts/validate_rubric.py",
+      "sha256": "843244f4728b93b07e1c7d51ca2f22e7a6d9215af0f83247afe181920e120821",
+      "bytes": 1729
+    },
+    {
+      "path": ".agents/skills/scholar-evaluation/scripts/weight_sensitivity.py",
+      "source": "scientific-agent-skills",
+      "commit": "a25cf9ec00e2745d03f8704acf6f6919694ccd9a",
+      "source_path": "skills/scholar-evaluation/scripts/weight_sensitivity.py",
+      "sha256": "06dba6b262e2ef2c120389f662e81aec87bbb9a1141ff54bb843608c03c37953",
+      "bytes": 10270
+    },
+    {
+      "path": ".agents/skills/nature-reviewer/CHANGELOG.md",
+      "source": "nature-skills",
+      "commit": "d774add241c65e89ed17a4da573b472b0972fd42",
+      "source_path": "skills/nature-reviewer/CHANGELOG.md",
+      "sha256": "313666d12ea6826bd984ee8103e146568346b7e015395eece768172321973413",
+      "bytes": 4192
+    },
+    {
+      "path": ".agents/skills/nature-reviewer/README.md",
+      "source": "nature-skills",
+      "commit": "d774add241c65e89ed17a4da573b472b0972fd42",
+      "source_path": "skills/nature-reviewer/README.md",
+      "sha256": "39260a57b133445fe0815bac11b36367ede951aedb7ad559cc9e30146f05ee2f",
+      "bytes": 3407
+    },
+    {
+      "path": ".agents/skills/nature-reviewer/README_EN.md",
+      "source": "nature-skills",
+      "commit": "d774add241c65e89ed17a4da573b472b0972fd42",
+      "source_path": "skills/nature-reviewer/README_EN.md",
+      "sha256": "39e2e951e1e998b16437bf6b12e1c83481abc95a3b83557e51fed6d1897873be",
+      "bytes": 3869
+    },
+    {
+      "path": ".agents/skills/nature-reviewer/SKILL.md",
+      "source": "nature-skills",
+      "commit": "d774add241c65e89ed17a4da573b472b0972fd42",
+      "source_path": "skills/nature-reviewer/SKILL.md",
+      "sha256": "8ca28cc8e8bda2b5254056940d2a696dc0d3cabcd5573cdec98ffc3cbd162610",
+      "bytes": 12931
+    },
+    {
+      "path": ".agents/skills/nature-reviewer/agents/openai.yaml",
+      "source": "nature-skills",
+      "commit": "d774add241c65e89ed17a4da573b472b0972fd42",
+      "source_path": "skills/nature-reviewer/agents/openai.yaml",
+      "sha256": "d178c25094dc93f82c79546915c8fcace9aaeabfa7d47acb304d48b9eda60ea6",
+      "bytes": 253
+    },
+    {
+      "path": ".agents/skills/nature-reviewer/manifest.yaml",
+      "source": "nature-skills",
+      "commit": "d774add241c65e89ed17a4da573b472b0972fd42",
+      "source_path": "skills/nature-reviewer/manifest.yaml",
+      "sha256": "ae72a3851c25db11ddb8ce57791d197a849c25c1a60ce0b240a43c486bc037ff",
+      "bytes": 2823
+    },
+    {
+      "path": ".agents/skills/nature-reviewer/references/domain-specific-review-gates.md",
+      "source": "nature-skills",
+      "commit": "d774add241c65e89ed17a4da573b472b0972fd42",
+      "source_path": "skills/nature-reviewer/references/domain-specific-review-gates.md",
+      "sha256": "394caa5c36b64bf32ba4059fd9bae926e280c4cf2d915705459d858a946c67a4",
+      "bytes": 10432
+    },
+    {
+      "path": ".agents/skills/nature-reviewer/references/editorial criteria and processes.md",
+      "source": "nature-skills",
+      "commit": "d774add241c65e89ed17a4da573b472b0972fd42",
+      "source_path": "skills/nature-reviewer/references/editorial criteria and processes.md",
+      "sha256": "93b46198ecc5c68e6b5fb31bc9c3f77a4d869cef631dfbd6ab361766bc919cdc",
+      "bytes": 4391
+    },
+    {
+      "path": ".agents/skills/nature-reviewer/references/forensic-consistency-audit.md",
+      "source": "nature-skills",
+      "commit": "d774add241c65e89ed17a4da573b472b0972fd42",
+      "source_path": "skills/nature-reviewer/references/forensic-consistency-audit.md",
+      "sha256": "6555c0b85d81cf4f32d5607c95485bfa4ce48ab3a95827dd7a4aeb83d7771319",
+      "bytes": 8494
+    },
+    {
+      "path": ".agents/skills/nature-reviewer/references/qa-checklist.md",
+      "source": "nature-skills",
+      "commit": "d774add241c65e89ed17a4da573b472b0972fd42",
+      "source_path": "skills/nature-reviewer/references/qa-checklist.md",
+      "sha256": "37d7e487e6a982c0b6e9587c7d8c0acebbf435c8bd721773a125c62873a45baa",
+      "bytes": 8450
+    },
+    {
+      "path": ".agents/skills/nature-reviewer/references/report-structure.md",
+      "source": "nature-skills",
+      "commit": "d774add241c65e89ed17a4da573b472b0972fd42",
+      "source_path": "skills/nature-reviewer/references/report-structure.md",
+      "sha256": "3cb1107fe1e7adb49dbadfd00e57576f5804082e182a6a6b27c48017b7a2c65f",
+      "bytes": 5718
+    },
+    {
+      "path": ".agents/skills/nature-reviewer/references/review-axes.md",
+      "source": "nature-skills",
+      "commit": "d774add241c65e89ed17a4da573b472b0972fd42",
+      "source_path": "skills/nature-reviewer/references/review-axes.md",
+      "sha256": "88eb4fec5afe162238dd380bedcba052e6f5fce2b9a67afd94b3fd483efc941f",
+      "bytes": 3439
+    },
+    {
+      "path": ".agents/skills/nature-reviewer/references/reviewer-workflow.md",
+      "source": "nature-skills",
+      "commit": "d774add241c65e89ed17a4da573b472b0972fd42",
+      "source_path": "skills/nature-reviewer/references/reviewer-workflow.md",
+      "sha256": "ffdf1b184e6f8625788526f75669ae0af6eb1dcc65c9884bf14453ad695fbd1e",
+      "bytes": 8617
+    },
+    {
+      "path": ".agents/skills/nature-reviewer/references/role-boundaries.md",
+      "source": "nature-skills",
+      "commit": "d774add241c65e89ed17a4da573b472b0972fd42",
+      "source_path": "skills/nature-reviewer/references/role-boundaries.md",
+      "sha256": "1b5d09b4b8f9a1ef24bf3fdd49d7c0f2c4ea3db3834656193192341e2bf02b80",
+      "bytes": 3421
+    },
+    {
+      "path": ".agents/skills/nature-reviewer/references/source-basis.md",
+      "source": "nature-skills",
+      "commit": "d774add241c65e89ed17a4da573b472b0972fd42",
+      "source_path": "skills/nature-reviewer/references/source-basis.md",
+      "sha256": "ff9626c18ac49b69ddf37db41a67bca0f4e671f3109952a5358650706bd55c48",
+      "bytes": 5473
+    },
+    {
+      "path": ".agents/skills/nature-reviewer/references/technical-concern-taxonomy.md",
+      "source": "nature-skills",
+      "commit": "d774add241c65e89ed17a4da573b472b0972fd42",
+      "source_path": "skills/nature-reviewer/references/technical-concern-taxonomy.md",
+      "sha256": "3a4259499f3820f9a643d08eec24f3e27eefe80736d46793fa2db603fe3f8566",
+      "bytes": 6421
+    },
+    {
+      "path": ".agents/skills/nature-reviewer/tests/punctuation-style.md",
+      "source": "nature-skills",
+      "commit": "d774add241c65e89ed17a4da573b472b0972fd42",
+      "source_path": "skills/nature-reviewer/tests/punctuation-style.md",
+      "sha256": "65999daf645691fd294a9f5ade3857285951af2c7d0be75bf602eff6549f9b70",
+      "bytes": 1812
+    },
+    {
+      "path": ".agents/skills/nature-reviewer/tests/reviewer-independence.md",
+      "source": "nature-skills",
+      "commit": "d774add241c65e89ed17a4da573b472b0972fd42",
+      "source_path": "skills/nature-reviewer/tests/reviewer-independence.md",
+      "sha256": "54019a6a23914d000aeaa07e9964bdf64d6647a13702c4cddd998043a2526f3e",
+      "bytes": 2738
+    },
+    {
+      "path": ".agents/skills/nature-reviewer/tests/severity-tiering.md",
+      "source": "nature-skills",
+      "commit": "d774add241c65e89ed17a4da573b472b0972fd42",
+      "source_path": "skills/nature-reviewer/tests/severity-tiering.md",
+      "sha256": "dd330c66eebcb599dd5f23bf0f8dd2cfef209d288219c3a5c677937b0fdeee16",
+      "bytes": 2738
+    },
+    {
+      "path": ".agents/skills/nature-reviewer/tests/test_reviewer_instruction_contracts.py",
+      "source": "nature-skills",
+      "commit": "d774add241c65e89ed17a4da573b472b0972fd42",
+      "source_path": "skills/nature-reviewer/tests/test_reviewer_instruction_contracts.py",
+      "sha256": "19283ad34d044f8929629c4e2398d76d4a6a92830e9ee745af12faeed4f87b5f",
+      "bytes": 1978
+    },
+    {
+      "path": ".agents/skills/nature-reviewer/tests/traceable-review.md",
+      "source": "nature-skills",
+      "commit": "d774add241c65e89ed17a4da573b472b0972fd42",
+      "source_path": "skills/nature-reviewer/tests/traceable-review.md",
+      "sha256": "b3a7380d3f466511f3c6946e875272676d9e5dbf139f10de159fc4a84d34e025",
+      "bytes": 1746
+    },
+    {
+      "path": ".agents/skills/nature-paper-xray/README.md",
+      "source": "nature-skills",
+      "commit": "d774add241c65e89ed17a4da573b472b0972fd42",
+      "source_path": "skills/nature-paper-xray/README.md",
+      "sha256": "6301650e7005a26f38947690f5823af68f91adcf6a5a69a8b5cef2c5b1cc9ac7",
+      "bytes": 3243
+    },
+    {
+      "path": ".agents/skills/nature-paper-xray/README_EN.md",
+      "source": "nature-skills",
+      "commit": "d774add241c65e89ed17a4da573b472b0972fd42",
+      "source_path": "skills/nature-paper-xray/README_EN.md",
+      "sha256": "a9be569c0988c53fc9dfbee2dab173a4ea595260aa7d043414d857e78808b265",
+      "bytes": 3749
+    },
+    {
+      "path": ".agents/skills/nature-paper-xray/SKILL.md",
+      "source": "nature-skills",
+      "commit": "d774add241c65e89ed17a4da573b472b0972fd42",
+      "source_path": "skills/nature-paper-xray/SKILL.md",
+      "sha256": "c889b3751672fa453d761f0a2956cf8304b51a383be6d10f06d27f0371012d87",
+      "bytes": 6190
+    },
+    {
+      "path": ".agents/skills/nature-paper-xray/agents/openai.yaml",
+      "source": "nature-skills",
+      "commit": "d774add241c65e89ed17a4da573b472b0972fd42",
+      "source_path": "skills/nature-paper-xray/agents/openai.yaml",
+      "sha256": "c83952b73138edd78aebd032e4bb1fdbc58382cebb51ba16a6e8c7a978c47973",
+      "bytes": 395
+    },
+    {
+      "path": ".agents/skills/nature-paper-xray/manifest.yaml",
+      "source": "nature-skills",
+      "commit": "d774add241c65e89ed17a4da573b472b0972fd42",
+      "source_path": "skills/nature-paper-xray/manifest.yaml",
+      "sha256": "b030fa94e9c904e3d2d47688156119a8f1d3b627baa257324e8eedcf530dc147",
+      "bytes": 1147
+    },
+    {
+      "path": ".agents/skills/nature-paper-xray/references/deep-reading-protocol.md",
+      "source": "nature-skills",
+      "commit": "d774add241c65e89ed17a4da573b472b0972fd42",
+      "source_path": "skills/nature-paper-xray/references/deep-reading-protocol.md",
+      "sha256": "a076facb386f8868759f834a11f1b598a0eaf369ffcc74d679c8a33ac06f8874",
+      "bytes": 3518
+    },
+    {
+      "path": ".agents/skills/nature-paper-xray/references/evidence-boundary.md",
+      "source": "nature-skills",
+      "commit": "d774add241c65e89ed17a4da573b472b0972fd42",
+      "source_path": "skills/nature-paper-xray/references/evidence-boundary.md",
+      "sha256": "c814b7dc55181db08420eaf52f9ac8ef4f9e01639e7f17713434be15ae54aa83",
+      "bytes": 3396
+    },
+    {
+      "path": ".agents/skills/nature-statistics/README.md",
+      "source": "nature-skills",
+      "commit": "d774add241c65e89ed17a4da573b472b0972fd42",
+      "source_path": "skills/nature-statistics/README.md",
+      "sha256": "a8e426736033388a010c5b30a0955fc5fc66a896b07948066292b3b07654b145",
+      "bytes": 2453
+    },
+    {
+      "path": ".agents/skills/nature-statistics/README_EN.md",
+      "source": "nature-skills",
+      "commit": "d774add241c65e89ed17a4da573b472b0972fd42",
+      "source_path": "skills/nature-statistics/README_EN.md",
+      "sha256": "8698c7a38c7857731dc18245ce896d3ba2e65303610fc06ed7e901c0fa57c6d1",
+      "bytes": 2889
+    },
+    {
+      "path": ".agents/skills/nature-statistics/SKILL.md",
+      "source": "nature-skills",
+      "commit": "d774add241c65e89ed17a4da573b472b0972fd42",
+      "source_path": "skills/nature-statistics/SKILL.md",
+      "sha256": "89d2a101fc45d7adf8ca327a6da4bda4a696d6364d7c36ead4f53413627a9b6f",
+      "bytes": 8287
+    },
+    {
+      "path": ".agents/skills/nature-statistics/agents/openai.yaml",
+      "source": "nature-skills",
+      "commit": "d774add241c65e89ed17a4da573b472b0972fd42",
+      "source_path": "skills/nature-statistics/agents/openai.yaml",
+      "sha256": "08d655ae9ec4624a2bfe0f4b5ad2072cb9d3f900fb030e2a420f873ec74b9aac",
+      "bytes": 254
+    },
+    {
+      "path": ".agents/skills/nature-statistics/manifest.yaml",
+      "source": "nature-skills",
+      "commit": "d774add241c65e89ed17a4da573b472b0972fd42",
+      "source_path": "skills/nature-statistics/manifest.yaml",
+      "sha256": "f6e31015befcb92627d4c75545a200a2b81f52d144e4103f428142b9945bd40a",
+      "bytes": 2117
+    },
+    {
+      "path": ".agents/skills/nature-statistics/references/common-failure-modes.md",
+      "source": "nature-skills",
+      "commit": "d774add241c65e89ed17a4da573b472b0972fd42",
+      "source_path": "skills/nature-statistics/references/common-failure-modes.md",
+      "sha256": "e4db4cbcc5c2c64bbe40e54a0686986e1c540c0e7530fd3ed2902da92968876b",
+      "bytes": 4206
+    },
+    {
+      "path": ".agents/skills/nature-statistics/references/figure-statistics.md",
+      "source": "nature-skills",
+      "commit": "d774add241c65e89ed17a4da573b472b0972fd42",
+      "source_path": "skills/nature-statistics/references/figure-statistics.md",
+      "sha256": "3956df164b07b60b44097c8e1c5cbbd3eb8e932eb68cce73a4576fe8e63bc632",
+      "bytes": 2905
+    },
+    {
+      "path": ".agents/skills/nature-statistics/references/nature-article-requirements.md",
+      "source": "nature-skills",
+      "commit": "d774add241c65e89ed17a4da573b472b0972fd42",
+      "source_path": "skills/nature-statistics/references/nature-article-requirements.md",
+      "sha256": "8befbc3176339347a1520ada81e49da61dac703d89d4c37c1d5c52d613e77fa9",
+      "bytes": 3420
+    },
+    {
+      "path": ".agents/skills/nature-statistics/references/reviewer-checklist.md",
+      "source": "nature-skills",
+      "commit": "d774add241c65e89ed17a4da573b472b0972fd42",
+      "source_path": "skills/nature-statistics/references/reviewer-checklist.md",
+      "sha256": "9cb9c4326fed726ed96ffd53168029db3d4774e7192556488a0eebbde98705da",
+      "bytes": 3591
+    },
+    {
+      "path": ".agents/skills/nature-statistics/references/source-basis.md",
+      "source": "nature-skills",
+      "commit": "d774add241c65e89ed17a4da573b472b0972fd42",
+      "source_path": "skills/nature-statistics/references/source-basis.md",
+      "sha256": "fe3ae278436085ac77b813fb23f8c8f8ab0ac14d6b00c5365adb83d73f19fe71",
+      "bytes": 3638
+    },
+    {
+      "path": ".agents/skills/nature-statistics/references/statistical-reporting.md",
+      "source": "nature-skills",
+      "commit": "d774add241c65e89ed17a4da573b472b0972fd42",
+      "source_path": "skills/nature-statistics/references/statistical-reporting.md",
+      "sha256": "4b014328e17cfb06369b6a14fd9eee0d47408d6484c8b9e520fcbe481cb87f3a",
+      "bytes": 4037
+    },
+    {
+      "path": ".agents/skills/nature-ref-verifier/README.md",
+      "source": "nature-skills",
+      "commit": "d774add241c65e89ed17a4da573b472b0972fd42",
+      "source_path": "skills/nature-ref-verifier/README.md",
+      "sha256": "57d07eebb059a5117c20b9626a4361f3648b0b6f031fb9c76ea018aca4a0ca5d",
+      "bytes": 1930
+    },
+    {
+      "path": ".agents/skills/nature-ref-verifier/README_EN.md",
+      "source": "nature-skills",
+      "commit": "d774add241c65e89ed17a4da573b472b0972fd42",
+      "source_path": "skills/nature-ref-verifier/README_EN.md",
+      "sha256": "986aafcee95af57fee26434707bcd70138c7b831fca9d79de81f1ea86ad4ed80",
+      "bytes": 2089
+    },
+    {
+      "path": ".agents/skills/nature-ref-verifier/SKILL.md",
+      "source": "nature-skills",
+      "commit": "d774add241c65e89ed17a4da573b472b0972fd42",
+      "source_path": "skills/nature-ref-verifier/SKILL.md",
+      "sha256": "6a975074d7a1c62c00dd9e8c7367cd2af0ef9d573d6d6ce5ea12f70d9320a516",
+      "bytes": 9756
+    },
+    {
+      "path": ".agents/skills/nature-ref-verifier/agents/openai.yaml",
+      "source": "nature-skills",
+      "commit": "d774add241c65e89ed17a4da573b472b0972fd42",
+      "source_path": "skills/nature-ref-verifier/agents/openai.yaml",
+      "sha256": "8ff76548af85a85dc397d6a519a35d5f4a275a2b0c9f696cb1f7d084cf86d5b6",
+      "bytes": 258
+    },
+    {
+      "path": ".agents/skills/nature-ref-verifier/manifest.yaml",
+      "source": "nature-skills",
+      "commit": "d774add241c65e89ed17a4da573b472b0972fd42",
+      "source_path": "skills/nature-ref-verifier/manifest.yaml",
+      "sha256": "fc496c04d7e1b7ffe7ad3e1ed513841234b8206ef2bf4e965643fd6e8a766d18",
+      "bytes": 793
+    },
+    {
+      "path": ".agents/skills/nature-ref-verifier/references/common-patterns.md",
+      "source": "nature-skills",
+      "commit": "d774add241c65e89ed17a4da573b472b0972fd42",
+      "source_path": "skills/nature-ref-verifier/references/common-patterns.md",
+      "sha256": "0f8bba9f8d4e159c7a8dd8a7c971f8faa9ce03c25ce0248015be67eaf1fdf243",
+      "bytes": 3623
+    },
+    {
+      "path": ".agents/skills/brainstorming-research-ideas/SKILL.md",
+      "source": "AI-Research-SKILLs",
+      "commit": "773a52944ba4747a18bd4ae9ade53fff041adcbc",
+      "source_path": "21-research-ideation/brainstorming-research-ideas/SKILL.md",
+      "sha256": "8422a1a6dc0a88d05f02b9fbe0f8c2ae06a77024856d18125efa13d19d855d46",
+      "bytes": 19150
+    },
+    {
+      "path": ".agents/skills/creative-thinking-for-research/SKILL.md",
+      "source": "AI-Research-SKILLs",
+      "commit": "773a52944ba4747a18bd4ae9ade53fff041adcbc",
+      "source_path": "21-research-ideation/creative-thinking-for-research/SKILL.md",
+      "sha256": "ec111f9236d7f9d72c895cebbf0f534ac93f4249172607559ad4bf92aefc5310",
+      "bytes": 21962
+    }
+  ]
+}
