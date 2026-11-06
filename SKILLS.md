@@ -14,3 +14,7 @@
 其他来源暂未纳入：ARIS 的 Codex 工作流依赖共享参考、辅助脚本及审阅后端；[ARS-Codex](https://github.com/Imbad0202/academic-research-skills-codex) 声明为 CC BY-NC 4.0 大型套件，使用受到非商业条款约束；[claude-scholar](https://github.com/Galaxy-Dawn/claude-scholar/tree/codex) 需使用 Codex 分支并检查其安装器和配置；[Paper Craft Skills](https://github.com/zsyggg/paper-craft-skills) 的 README 声明 MIT，但 GitHub 元数据未识别独立许可文件，分发前需核对。这些项目尚未安装或测试。
 
 将仓库克隆或打开为 Codex 工作目录后，在新会话查看技能列表并尝试调用；技能被发现不等于联网、程序依赖或结果已验证。ChatGPT 项目连接 GitHub 不保证将仓库技能自动注册到 ChatGPT 项目会话；实际可用性取决于运行环境及技能/插件安装方式。不要将公开仓库用于敏感研究材料。
+
+## GenDSM 核心科研技能增量
+
+新增选题、文献、实验设计和审稿技能的冻结来源、许可证及验收限制见 [CORE-SKILLS-REPORT.md](CORE-SKILLS-REPORT.md)，逐文件哈希见 [CORE-SKILLS-MANIFEST.json](CORE-SKILLS-MANIFEST.json)。
